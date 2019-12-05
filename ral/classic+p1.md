@@ -1,5 +1,5 @@
-| ID	| Swatch	| Plastics	| DE	| EN	| FR	| ES	| IT	| NL	|
-| --	| ------	| --------	| --	| --	| --	| --	| --	| --	|
+| ID	| CSS sRGB	| Swatch	| Plastics	| DE	| EN	| FR	| ES	| IT	| NL	|
+| --	| --------	| ------	| --------	| --	| --	| --	| --	| --	| --	|
 | RAL 1000(-P)	| ![classic-1](https://www.ral-farben.de/out/ralfarben/img/thumbs/classic-1.png)	| ![plastics-p1-1](https://www.ral-farben.de/out/ralfarben/img/thumbs/plastics-p1-1.png)	| Grünbeige	| Green beige	| Beige vert	| Beige verdoso	| Beige verdastro	| Groenbeige	|
 | RAL 1001(-P)	| ![classic-2](https://www.ral-farben.de/out/ralfarben/img/thumbs/classic-2.png)	| ![plastics-p1-2](https://www.ral-farben.de/out/ralfarben/img/thumbs/plastics-p1-2.png)	| Beige	| Beige	| Beige	| Beige	| Beige	| Beige	|
 | RAL 1002(-P)	| ![classic-3](https://www.ral-farben.de/out/ralfarben/img/thumbs/classic-3.png)	| ![plastics-p1-3](https://www.ral-farben.de/out/ralfarben/img/thumbs/plastics-p1-3.png)	| Sandgelb	| Sand yellow	| Jaune sable	| Amarillo arena	| Giallo sabbia	| Zandgeel	|
