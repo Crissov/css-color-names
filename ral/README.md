@@ -8,12 +8,14 @@ Overviews
 
 - [RAL Classic and Effect colors](classic.md) 
   [(classic.TSV)](classic.tsv)
+  - [RAL Classic Plastics colors](P1.md)
+    [(P1.TSV)](P1.tsv)
+  - [combined](classic+p1.md)
 - [RAL Design System colors](design.md) 
   [(design.TSV)](design.tsv)
-- [RAL Plastics colors, part 1](P1.md)
-  [(P1.TSV)](P1.tsv)
-- [RAL Plastics colors, part 2](P2.md)
-  [(P2.TSV)](P2.tsv)
+  - [RAL Design Plastics colors](P2.md)
+    [(P2.TSV)](P2.tsv)
+  - [combined](design+p2.md)
 
 Sources
 -------
