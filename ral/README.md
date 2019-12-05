@@ -1,6 +1,8 @@
 RAL
 ===
 
+![RAL Classic](<RAL Classic RGB 10px raster.png> "10px overview")
+
 Sources
 -------
 
