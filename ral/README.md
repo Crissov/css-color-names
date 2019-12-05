@@ -1,7 +1,7 @@
 RAL
 ===
 
-![RAL Classic](<RAL Classic RGB 10px raster.png> "10px overview")
+![RAL Classic](<ral-classic-rgb.10px.png> "10px overview")
 
 Overviews
 ---------
