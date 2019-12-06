@@ -214,4 +214,4 @@
 | RAL 9022	| `rgb(133,133,131)`	| ![classic-212](https://www.ral-farben.de/out/ralfarben/img/thumbs/classic-212.png)	| Perlhellgrau	| Pearl light grey	| Gris clair nacré	| Gris claro perlado	| Grigio chiaro perlato	| Parelmoer lichtgrijs	|
 | RAL 9023	| `rgb(121,123,122)`	| ![classic-213](https://www.ral-farben.de/out/ralfarben/img/thumbs/classic-213.png)	| Perldunkelgrau	| Pearl dark grey	| Gris fonçé nacré	| Gris oscuro perlado	| Grigio scuro perlato	| Parelmoer donkergrijs	|
 
-The sRGB values are taken verbatim from the sample PNG images published by RAL.
+The sRGB values are taken verbatim from the [sample PNG images published by RAL](http://www.ral-farben.de/content/anwendung-hilfe/all-ral-colours-names/overview-ral-classic-colours.html).

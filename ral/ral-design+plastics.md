@@ -1,5 +1,5 @@
-| HHH LL CC	| CSS4 CIE LCH	| Swatch	| Plastics (Transparent)	| DE	| EN	|
-| ---------	| ------------	| ------	| --------	| --	| --	|
+| HHH LL CC	| CSS4 CIE LCH	| CSS sRGB	| Swatch	| Plastics (Transparent)	| DE	| EN	|
+| ---------	| ------------	| --------	| ------	| --------	| --	| --	|
 | H000L15C00(-P)	| `lch(15% 0% 0deg)`	| ![designplus-1](https://www.ral-farben.de/out/ralfarben/img/thumbs/designplus-1.png)	| ![plastics-p2-1](https://www.ral-farben.de/out/ralfarben/img/thumbs/plastics-p2-1.png)	| Tintenschwarz	| Ink black	|
 | H000L20C00	| `lch(20% 0% 0deg)`	| ![designplus-2](https://www.ral-farben.de/out/ralfarben/img/thumbs/designplus-2.png)	| 	| Schieferschwarz	| Slate black	|
 | H000L25C00	| `lch(25% 0% 0deg)`	| ![designplus-3](https://www.ral-farben.de/out/ralfarben/img/thumbs/designplus-3.png)	| 	| Onyxschwarz	| Onyx black	|
@@ -1067,8 +1067,7 @@
 | H200L50C30	| `lch(50% 30% 200deg)`	| ![designplus-1065](https://www.ral-farben.de/out/ralfarben/img/thumbs/designplus-1065.png)	| 	| Karibiktürkis	| Caribbean turquoise	|
 | H200L50C35	| `lch(50% 35% 200deg)`	| ![designplus-1066](https://www.ral-farben.de/out/ralfarben/img/thumbs/designplus-1066.png)	| 	| Brunnenblau	| Well blue	|
 | H200L50C40	| `lch(50% 40% 200deg)`	| ![designplus-1067](https://www.ral-farben.de/out/ralfarben/img/thumbs/designplus-1067.png)	| 	| Industrieblau	| Industrial blue	|
-| H200L50C45(-P)	| `lch(50% 45% 200deg)`	| ![designplus-1068](https://www.ral-farben.de/out/ralfarben/img/thumbs/designplus-1068.png)	| ![plastics-p2-117](https://www.ral-farben.de/out/ralfarben/img/thumbs/plastics-p2-117.png)	| Indiablau	| India blue	|
-| ![plastics-p2-118](https://www.ral-farben.de/out/ralfarben/img/thumbs/plastics-p2-118.png)	| 200 50 45-P	| `lch(50% 45% 200deg)`	|
+| H200L50C45(-P(-T))	| `lch(50% 45% 200deg)`	| ![designplus-1068](https://www.ral-farben.de/out/ralfarben/img/thumbs/designplus-1068.png)	| ![plastics-p2-117](https://www.ral-farben.de/out/ralfarben/img/thumbs/plastics-p2-117.png) ![plastics-p2-118](https://www.ral-farben.de/out/ralfarben/img/thumbs/plastics-p2-118.png)	| Indiablau	| India blue	|
 | H200L60C05	| `lch(60% 5% 200deg)`	| ![designplus-1069](https://www.ral-farben.de/out/ralfarben/img/thumbs/designplus-1069.png)	| 	| Schattengrau	| Shady grey	|
 | H200L60C10	| `lch(60% 10% 200deg)`	| ![designplus-1070](https://www.ral-farben.de/out/ralfarben/img/thumbs/designplus-1070.png)	| 	| Nordkapgrau	| North Cape grey	|
 | H200L60C15	| `lch(60% 15% 200deg)`	| ![designplus-1071](https://www.ral-farben.de/out/ralfarben/img/thumbs/designplus-1071.png)	| 	| Waidindigo	| Woad indigo	|
@@ -1264,8 +1263,7 @@
 | H240L60C25	| `lch(60% 25% 240deg)`	| ![designplus-1261](https://www.ral-farben.de/out/ralfarben/img/thumbs/designplus-1261.png)	| 	| Stahlhellblau	| Steel light blue	|
 | H240L60C30	| `lch(60% 30% 240deg)`	| ![designplus-1262](https://www.ral-farben.de/out/ralfarben/img/thumbs/designplus-1262.png)	| 	| Märchenblau	| Fairytale blue	|
 | H240L60C35	| `lch(60% 35% 240deg)`	| ![designplus-1263](https://www.ral-farben.de/out/ralfarben/img/thumbs/designplus-1263.png)	| 	| Prinzessblau	| Princess blue	|
-| H240L60C40(-P)	| `lch(60% 40% 240deg)`	| ![designplus-1264](https://www.ral-farben.de/out/ralfarben/img/thumbs/designplus-1264.png)	| ![plastics-p2-138](https://www.ral-farben.de/out/ralfarben/img/thumbs/plastics-p2-138.png)	| Klarblau	| Clear blue	|
-| ![plastics-p2-139](https://www.ral-farben.de/out/ralfarben/img/thumbs/plastics-p2-139.png)	| 240 60 40-P	| `lch(60% 40% 240deg)`	|
+| H240L60C40(-P(-T))	| `lch(60% 40% 240deg)`	| ![designplus-1264](https://www.ral-farben.de/out/ralfarben/img/thumbs/designplus-1264.png)	| ![plastics-p2-138](https://www.ral-farben.de/out/ralfarben/img/thumbs/plastics-p2-138.png) ![plastics-p2-139](https://www.ral-farben.de/out/ralfarben/img/thumbs/plastics-p2-139.png)	| Klarblau	| Clear blue	|
 | H240L70C05	| `lch(70% 5% 240deg)`	| ![designplus-1265](https://www.ral-farben.de/out/ralfarben/img/thumbs/designplus-1265.png)	| 	| Wäscheblau	| Laundry blue	|
 | H240L70C10	| `lch(70% 10% 240deg)`	| ![designplus-1266](https://www.ral-farben.de/out/ralfarben/img/thumbs/designplus-1266.png)	| 	| Augenblau	| Eye blue	|
 | H240L70C15	| `lch(70% 15% 240deg)`	| ![designplus-1267](https://www.ral-farben.de/out/ralfarben/img/thumbs/designplus-1267.png)	| 	| Bermudablau	| Bermuda blue	|
@@ -1827,3 +1825,5 @@
 | H360L90C05	| `lch(90% 5% 360deg)`	| ![designplus-1823](https://www.ral-farben.de/out/ralfarben/img/thumbs/designplus-1823.png)	| 	| Eisrosa	| Ice pink	|
 | H360L90C10	| `lch(90% 10% 360deg)`	| ![designplus-1824](https://www.ral-farben.de/out/ralfarben/img/thumbs/designplus-1824.png)	| 	| Tortencreme	| Cake frosting	|
 | H360L93C05	| `lch(93% 5% 360deg)`	| ![designplus-1825](https://www.ral-farben.de/out/ralfarben/img/thumbs/designplus-1825.png)	| 	| Pfeilkrautweiß	| Arrowhead white	|
+
+The sRGB values are taken verbatim from the [sample PNG images published by RAL](http://www.ral-farben.de/content/anwendung-hilfe/all-ral-colours-names/overview-ral-design-colours.html).

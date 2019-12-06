@@ -116,9 +116,8 @@
 | H190L50C20-P	| `lch(50% 20% 190deg)`	| `rgb( 70,128,123)`	| ![plastics-p2-114](https://www.ral-farben.de/out/ralfarben/img/thumbs/plastics-p2-114.png)	|
 | H190L70C20-P	| `lch(70% 20% 190deg)`	| `rgb(122,181,174)`	| ![plastics-p2-115](https://www.ral-farben.de/out/ralfarben/img/thumbs/plastics-p2-115.png)	|
 | H200L30C33-P	| `lch(30% 33% 200deg)`	| `rgb(  0, 84, 86)`	| ![plastics-p2-116](https://www.ral-farben.de/out/ralfarben/img/thumbs/plastics-p2-116.png)	|
-| H200L50C45-P	| `lch(50% 45% 200deg)`	| `rgb(  0,138,142)`	rgb(  0,138,142)
-| H200L50C45-P	| `lch(50% 45% 200deg)`	| ![plastics-p2-117](https://www.ral-farben.de/out/ralfarben/img/thumbs/plastics-p2-117.png)	|
-| H200L50C45-P	| `lch(50% 45% 200deg)`	| ![plastics-p2-118](https://www.ral-farben.de/out/ralfarben/img/thumbs/plastics-p2-118.png)	|
+| H200L50C45-P	| `lch(50% 45% 200deg)`	| `rgb(  0,138,142)`	| ![plastics-p2-117](https://www.ral-farben.de/out/ralfarben/img/thumbs/plastics-p2-117.png)	|
+| H200L50C45-P-T	| `lch(50% 45% 200deg)`	| 	| ![plastics-p2-118](https://www.ral-farben.de/out/ralfarben/img/thumbs/plastics-p2-118.png)	|
 | H200L60C35-P	| `lch(60% 35% 200deg)`	| `rgb(  0,161,163)`	| ![plastics-p2-119](https://www.ral-farben.de/out/ralfarben/img/thumbs/plastics-p2-119.png)	|
 | H200L80C10-P	| `lch(80% 10% 200deg)`	| `rgb(174,204,203)`	| ![plastics-p2-120](https://www.ral-farben.de/out/ralfarben/img/thumbs/plastics-p2-120.png)	|
 | H210L40C20-P	| `lch(40% 20% 210deg)`	| `rgb( 38,102,107)`	| ![plastics-p2-121](https://www.ral-farben.de/out/ralfarben/img/thumbs/plastics-p2-121.png)	|
@@ -138,9 +137,8 @@
 | H230L70C20-P	| `lch(70% 20% 230deg)`	| `rgb(124,181,198)`	| ![plastics-p2-135](https://www.ral-farben.de/out/ralfarben/img/thumbs/plastics-p2-135.png)	|
 | H240L20C22-P	| `lch(20% 22% 240deg)`	| `rgb(  0, 52, 74)`	| ![plastics-p2-136](https://www.ral-farben.de/out/ralfarben/img/thumbs/plastics-p2-136.png)	|
 | H240L30C35-P	| `lch(30% 35% 240deg)`	| `rgb(  0, 81,113)`	| ![plastics-p2-137](https://www.ral-farben.de/out/ralfarben/img/thumbs/plastics-p2-137.png)	|
-| H240L60C40-P	| `lch(60% 40% 240deg)`	| `rgb(  0,  0,  3)`	rgb(  0,159,200)
-| H240L60C40-P	| `lch(60% 40% 240deg)`	| ![plastics-p2-138](https://www.ral-farben.de/out/ralfarben/img/thumbs/plastics-p2-138.png)	|
-| H240L60C40-P	| `lch(60% 40% 240deg)`	| ![plastics-p2-139](https://www.ral-farben.de/out/ralfarben/img/thumbs/plastics-p2-139.png)	|
+| H240L60C40-P	| `lch(60% 40% 240deg)`	| `rgb(  0,  0,  3)`	| ![plastics-p2-138](https://www.ral-farben.de/out/ralfarben/img/thumbs/plastics-p2-138.png)	|
+| H240L60C40-P-T	| `lch(60% 40% 240deg)`	| `rgb(  0,159,200)`	| ![plastics-p2-139](https://www.ral-farben.de/out/ralfarben/img/thumbs/plastics-p2-139.png)	|
 | H240L80C20-P	| `lch(80% 20% 240deg)`	| `rgb(155,208,229)`	| ![plastics-p2-140](https://www.ral-farben.de/out/ralfarben/img/thumbs/plastics-p2-140.png)	|
 | H250L30C20-P	| `lch(30% 20% 250deg)`	| `rgb( 21, 73, 98)`	| ![plastics-p2-141](https://www.ral-farben.de/out/ralfarben/img/thumbs/plastics-p2-141.png)	|
 | H250L50C30-P	| `lch(50% 30% 250deg)`	| `rgb( 43,125,166)`	| ![plastics-p2-142](https://www.ral-farben.de/out/ralfarben/img/thumbs/plastics-p2-142.png)	|
@@ -202,3 +200,5 @@
 | H360L50C40-P	| `lch(50% 40% 360deg)`	| `rgb(180, 88,119)`	| ![plastics-p2-198](https://www.ral-farben.de/out/ralfarben/img/thumbs/plastics-p2-198.png)	|
 | H360L50C40-P-T	| `lch(50% 40% 360deg)`	| 	| ![plastics-p2-199](https://www.ral-farben.de/out/ralfarben/img/thumbs/plastics-p2-199.png)	|
 | H360L70C15-P	| `lch(70% 15% 360deg)`	| `rgb(198,160,171)`	| ![plastics-p2-200](https://www.ral-farben.de/out/ralfarben/img/thumbs/plastics-p2-200.png)	|
+
+The sRGB values are taken verbatim from the [sample PNG images published by RAL](http://www.ral-farben.de/content/anwendung-hilfe/all-ral-colours-names/overview-ral-plastics-colours.html).

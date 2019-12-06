@@ -98,3 +98,5 @@
 | RAL 9010-P	| `rgb(241,236,225)`	| ![plastics-p1-96](https://www.ral-farben.de/out/ralfarben/img/thumbs/plastics-p1-96.png)	| Reinweiß	| Pure white	| Blanc pur	| Blanco puro	| Bianco puro	| Zuiver wit	|
 | RAL 9011-P	| `rgb( 39, 41, 43)`	| ![plastics-p1-97](https://www.ral-farben.de/out/ralfarben/img/thumbs/plastics-p1-97.png)	| Graphitschwarz	| Graphite black	| Noir graphite	| Negro grafito	| Nero grafite	| Grafietzwart	|
 | RAL 9016-P	| `rgb(241,240,234)`	| ![plastics-p1-98](https://www.ral-farben.de/out/ralfarben/img/thumbs/plastics-p1-98.png)	| Verkehrsweiß	| Traffic white	| Blanc signalisation	| Blanco tráfico	| Bianco traffico	| Verkeerswit	|
+
+The sRGB values are taken verbatim from the [sample PNG images published by RAL](http://www.ral-farben.de/content/anwendung-hilfe/all-ral-colours-names/overview-ral-plastics-colours.html).

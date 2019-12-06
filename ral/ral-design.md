@@ -1826,4 +1826,4 @@
 | H360L90C10	|  `lch(90% 10% 360deg)`	| `rgb(249,223,229)`	| ![designplus-1824](https://www.ral-farben.de/out/ralfarben/img/thumbs/designplus-1824.png)	| Tortencreme	| Cake frosting	|
 | H360L93C05	|  `lch(93% 5% 360deg)`	| `rgb(249,234,235)`	| ![designplus-1825](https://www.ral-farben.de/out/ralfarben/img/thumbs/designplus-1825.png)	| Pfeilkrautweiß	| Arrowhead white	|
 
-The sRGB values are taken verbatim from the sample PNG images published by RAL.
+The sRGB values are taken verbatim from the [sample PNG images published by RAL](http://www.ral-farben.de/content/anwendung-hilfe/all-ral-colours-names/overview-ral-design-colours.html).
