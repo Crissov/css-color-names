@@ -1,0 +1,216 @@
+/** RAL Classic EN */
+/** SCSS variable name from official English name */
+
+$GreenBeige:           rgb(205,186,136); /* RAL 1000 */
+$Beige:                rgb(208,176,132); /* RAL 1001 */
+$SandYellow:           rgb(210,170,109); /* RAL 1002 */
+$SignalYellow:         rgb(249,168,  0); /* RAL 1003 */
+$GoldenYellow:         rgb(228,158,  0); /* RAL 1004 */
+$HoneyYellow:          rgb(203,142,  0); /* RAL 1005 */
+$MaizeYellow:          rgb(226,144,  0); /* RAL 1006 */
+$DaffodilYellow:       rgb(232,140,  0); /* RAL 1007 */
+$BrownBeige:           rgb(175,128, 79); /* RAL 1011 */
+$LemonYellow:          rgb(221,175, 39); /* RAL 1012 */
+$OysterWhite:          rgb(227,217,198); /* RAL 1013 */
+$Ivory:                rgb(221,196,154); /* RAL 1014 */
+$LightIvory:           rgb(230,210,181); /* RAL 1015 */
+$SulfurYellow:         rgb(241,221, 56); /* RAL 1016 */
+$SaffronYellow:        rgb(246,169, 80); /* RAL 1017 */
+$ZincYellow:           rgb(250,202, 48); /* RAL 1018 */
+$GreyBeige:            rgb(164,143,122); /* RAL 1019 */
+$OliveYellow:          rgb(160,143,101); /* RAL 1020 */
+$ColzaYellow:          rgb(246,182,  0); /* RAL 1021 */
+$TrafficYellow:        rgb(247,181,  0); /* RAL 1023 */
+$OchreYellow:          rgb(186,143, 76); /* RAL 1024 */
+$LuminousYellow:       rgb(255,255,  0); /* RAL 1026 */
+$Curry:                rgb(167,127, 14); /* RAL 1027 */
+$MelonYellow:          rgb(255,155,  0); /* RAL 1028 */
+$BroomYellow:          rgb(226,163,  0); /* RAL 1032 */
+$DahliaYellow:         rgb(249,154, 28); /* RAL 1033 */
+$PastelYellow:         rgb(235,156, 82); /* RAL 1034 */
+$PearlBeige:           rgb(144,131,112); /* RAL 1035 */
+$PearlGold:            rgb(128,100, 63); /* RAL 1036 */
+$SunYellow:            rgb(240,146,  0); /* RAL 1037 */
+$YellowOrange:         rgb(218,110,  0); /* RAL 2000 */
+$RedOrange:            rgb(186, 72, 27); /* RAL 2001 */
+$Vermilion:            rgb(191, 57, 34); /* RAL 2002 */
+$PastelOrange:         rgb(246,120, 40); /* RAL 2003 */
+$PureOrange:           rgb(226, 83,  3); /* RAL 2004 */
+$LuminousOrange:       rgb(255, 77,  6); /* RAL 2005 */
+$LuminousBrightOrange: rgb(255,178,  0); /* RAL 2007 */
+$BrightRedOrange:      rgb(237,107, 33); /* RAL 2008 */
+$TrafficOrange:        rgb(222, 83,  7); /* RAL 2009 */
+$SignalOrange:         rgb(208, 93, 40); /* RAL 2010 */
+$DeepOrange:           rgb(226,110, 14); /* RAL 2011 */
+$SalmonOrange:         rgb(213,101, 77); /* RAL 2012 */
+$PearlOrange:          rgb(146, 62, 37); /* RAL 2013 */
+$FlameRed:             rgb(167, 41, 32); /* RAL 3000 */
+$SignalRed:            rgb(155, 36, 35); /* RAL 3001 */
+$CarmineRed:           rgb(155, 35, 33); /* RAL 3002 */
+$RubyRed:              rgb(134, 26, 34); /* RAL 3003 */
+$PurpleRed:            rgb(107, 28, 35); /* RAL 3004 */
+$WineRed:              rgb( 89, 25, 31); /* RAL 3005 */
+$BlackRed:             rgb( 62, 32, 34); /* RAL 3007 */
+$OxideRed:             rgb(109, 52, 45); /* RAL 3009 */
+$BrownRed:             rgb(121, 36, 35); /* RAL 3011 */
+$BeigeRed:             rgb(198,132,109); /* RAL 3012 */
+$TomatoRed:            rgb(151, 46, 37); /* RAL 3013 */
+$AntiquePink:          rgb(203,115,117); /* RAL 3014 */
+$LightPink:            rgb(216,160,166); /* RAL 3015 */
+$CoralRed:             rgb(166, 61, 47); /* RAL 3016 */
+$Rose:                 rgb(203, 85, 93); /* RAL 3017 */
+$StrawberryRed:        rgb(199, 63, 74); /* RAL 3018 */
+$TrafficRed:           rgb(187, 30, 16); /* RAL 3020 */
+$SalmonPink:           rgb(207,105, 85); /* RAL 3022 */
+$LuminousRed:          rgb(255, 45, 33); /* RAL 3024 */
+$LuminousBrightRed:    rgb(255, 42, 27); /* RAL 3026 */
+$RaspberryRed:         rgb(171, 39, 60); /* RAL 3027 */
+$PureRed:              rgb(204, 44, 36); /* RAL 3028 */
+$OrientRed:            rgb(166, 52, 55); /* RAL 3031 */
+$PearlRubyRed:         rgb(112, 29, 35); /* RAL 3032 */
+$PearlPink:            rgb(165, 58, 45); /* RAL 3033 */
+$RedLilac:             rgb(129, 97,131); /* RAL 4001 */
+$RedViolet:            rgb(141, 60, 75); /* RAL 4002 */
+$HeatherViolet:        rgb(196, 97,140); /* RAL 4003 */
+$ClaretViolet:         rgb(101, 30, 56); /* RAL 4004 */
+$BlueLilac:            rgb(118,104,154); /* RAL 4005 */
+$TrafficPurple:        rgb(144, 51,115); /* RAL 4006 */
+$PurpleViolet:         rgb( 71, 36, 60); /* RAL 4007 */
+$SignalViolet:         rgb(132, 76,130); /* RAL 4008 */
+$PastelViolet:         rgb(157,134,146); /* RAL 4009 */
+$Telemagenta:          rgb(188, 64,119); /* RAL 4010 */
+$PearlViolet:          rgb(110, 99,135); /* RAL 4011 */
+$PearlBlackberry:      rgb(107,107,127); /* RAL 4012 */
+$VioletBlue:           rgb( 49, 79,111); /* RAL 5000 */
+$GreenBlue:            rgb( 15, 76,100); /* RAL 5001 */
+$UltramarineBlue:      rgb(  0, 56,123); /* RAL 5002 */
+$SapphireBlue:         rgb( 31, 56, 85); /* RAL 5003 */
+$BlackBlue:            rgb( 25, 30, 40); /* RAL 5004 */
+$SignalBlue:           rgb(  0, 83,135); /* RAL 5005 */
+$BrilliantBlue:        rgb( 55,107,140); /* RAL 5007 */
+$GreyBlue:             rgb( 43, 58, 68); /* RAL 5008 */
+$AzureBlue:            rgb( 34, 95,120); /* RAL 5009 */
+$GentianBlue:          rgb(  0, 79,124); /* RAL 5010 */
+$SteelBlue:            rgb( 26, 43, 60); /* RAL 5011 */
+$LightBlue:            rgb(  0,137,182); /* RAL 5012 */
+$CobaltBlue:           rgb( 25, 49, 83); /* RAL 5013 */
+$PigeonBlue:           rgb( 99,125,150); /* RAL 5014 */
+$SkyBlue:              rgb(  0,124,176); /* RAL 5015 */
+$TrafficBlue:          rgb(  0, 91,140); /* RAL 5017 */
+$TurquoiseBlue:        rgb(  5,139,140); /* RAL 5018 */
+$CapriBlue:            rgb(  0, 94,131); /* RAL 5019 */
+$OceanBlue:            rgb(  0, 65, 75); /* RAL 5020 */
+$WaterBlue:            rgb(  0,117,119); /* RAL 5021 */
+$NightBlue:            rgb( 34, 45, 90); /* RAL 5022 */
+$DistantBlue:          rgb( 66,105,140); /* RAL 5023 */
+$PastelBlue:           rgb( 96,147,172); /* RAL 5024 */
+$PearlGentianBlue:     rgb( 33,105,124); /* RAL 5025 */
+$PearlNightBlue:       rgb( 15, 48, 82); /* RAL 5026 */
+$PatinaGreen:          rgb( 60,116, 96); /* RAL 6000 */
+$EmeraldGreen:         rgb( 54,103, 53); /* RAL 6001 */
+$LeafGreen:            rgb( 50, 89, 40); /* RAL 6002 */
+$OliveGreen:           rgb( 80, 83, 60); /* RAL 6003 */
+$BlueGreen:            rgb(  2, 68, 66); /* RAL 6004 */
+$MossGreen:            rgb( 17, 66, 50); /* RAL 6005 */
+$GreyOlive:            rgb( 60, 57, 46); /* RAL 6006 */
+$BottleGreen:          rgb( 44, 50, 34); /* RAL 6007 */
+$BrownGreen:           rgb( 55, 52, 42); /* RAL 6008 */
+$FirGreen:             rgb( 39, 53, 42); /* RAL 6009 */
+$GrassGreen:           rgb( 77,111, 57); /* RAL 6010 */
+$ResedaGreen:          rgb(108,124, 89); /* RAL 6011 */
+$BlackGreen:           rgb( 48, 61, 58); /* RAL 6012 */
+$ReedGreen:            rgb(125,118, 90); /* RAL 6013 */
+$YellowOlive:          rgb( 71, 65, 53); /* RAL 6014 */
+$BlackOlive:           rgb( 61, 61, 54); /* RAL 6015 */
+$TurquoiseGreen:       rgb(  0,105, 76); /* RAL 6016 */
+$MayGreen:             rgb( 88,127, 64); /* RAL 6017 */
+$YellowGreen:          rgb( 97,153, 59); /* RAL 6018 */
+$PastelGreen:          rgb(185,206,172); /* RAL 6019 */
+$ChromeGreen:          rgb( 55, 66, 47); /* RAL 6020 */
+$PaleGreen:            rgb(138,153,119); /* RAL 6021 */
+$OliveDrab:            rgb( 58, 51, 39); /* RAL 6022 */
+$TrafficGreen:         rgb(  0,131, 81); /* RAL 6024 */
+$FernGreen:            rgb( 94,110, 59); /* RAL 6025 */
+$OpalGreen:            rgb(  0, 95, 78); /* RAL 6026 */
+$LightGreen:           rgb(126,186,181); /* RAL 6027 */
+$PineGreen:            rgb( 49, 84, 66); /* RAL 6028 */
+$MintGreen:            rgb(  0,111, 61); /* RAL 6029 */
+$SignalGreen:          rgb( 35,127, 82); /* RAL 6032 */
+$MintTurquoise:        rgb( 70,135,127); /* RAL 6033 */
+$PastelTurquoise:      rgb(122,172,172); /* RAL 6034 */
+$PearlGreen:           rgb( 25, 77, 37); /* RAL 6035 */
+$PearlOpalGreen:       rgb(  4, 87, 75); /* RAL 6036 */
+$PureGreen:            rgb(  0,139, 41); /* RAL 6037 */
+$LuminousGreen:        rgb(  0,181, 26); /* RAL 6038 */
+$SquirrelGrey:         rgb(122,136,142); /* RAL 7000 */
+$SilverGrey:           rgb(140,150,157); /* RAL 7001 */
+$OliveGrey:            rgb(129,120, 99); /* RAL 7002 */
+$MossGrey:             rgb(122,118,105); /* RAL 7003 */
+$SignalGrey:           rgb(155,155,155); /* RAL 7004 */
+$MouseGrey:            rgb(108,110,107); /* RAL 7005 */
+$BeigeGrey:            rgb(118,106, 94); /* RAL 7006 */
+$KhakiGrey:            rgb(116, 94, 61); /* RAL 7008 */
+$GreenGrey:            rgb( 93, 96, 88); /* RAL 7009 */
+$TarpaulinGrey:        rgb( 88, 92, 86); /* RAL 7010 */
+$IronGrey:             rgb( 82, 89, 93); /* RAL 7011 */
+$BasaltGrey:           rgb( 87, 93, 94); /* RAL 7012 */
+$BrownGrey:            rgb( 87, 80, 68); /* RAL 7013 */
+$SlateGrey:            rgb( 79, 83, 88); /* RAL 7015 */
+$AnthraciteGrey:       rgb( 56, 62, 66); /* RAL 7016 */
+$BlackGrey:            rgb( 47, 50, 52); /* RAL 7021 */
+$UmbraGrey:            rgb( 76, 74, 68); /* RAL 7022 */
+$ConcreteGrey:         rgb(128,128,118); /* RAL 7023 */
+$GraphiteGrey:         rgb( 69, 73, 78); /* RAL 7024 */
+$GraniteGrey:          rgb( 55, 67, 69); /* RAL 7026 */
+$StoneGrey:            rgb(146,142,133); /* RAL 7030 */
+$BlueGrey:             rgb( 91,104,109); /* RAL 7031 */
+$PebbleGrey:           rgb(181,176,161); /* RAL 7032 */
+$CementGrey:           rgb(127,130,116); /* RAL 7033 */
+$YellowGrey:           rgb(146,136,111); /* RAL 7034 */
+$LightGrey:            rgb(197,199,196); /* RAL 7035 */
+$PlatinumGrey:         rgb(151,147,146); /* RAL 7036 */
+$DustyGrey:            rgb(122,123,122); /* RAL 7037 */
+$AgateGrey:            rgb(176,176,169); /* RAL 7038 */
+$QuartzGrey:           rgb(107,102, 94); /* RAL 7039 */
+$WindowGrey:           rgb(152,158,161); /* RAL 7040 */
+$TrafficGreyA:         rgb(142,146,145); /* RAL 7042 */
+$TrafficGreyB:         rgb( 79, 82, 80); /* RAL 7043 */
+$SilkGrey:             rgb(183,179,168); /* RAL 7044 */
+$Telegrey1:            rgb(141,146,149); /* RAL 7045 */
+$Telegrey2:            rgb(127,134,138); /* RAL 7046 */
+$Telegrey4:            rgb(200,200,199); /* RAL 7047 */
+$PearlMouseGrey:       rgb(129,123,115); /* RAL 7048 */
+$GreenBrown:           rgb(137,105, 62); /* RAL 8000 */
+$OchreBrown:           rgb(157, 98, 43); /* RAL 8001 */
+$SignalBrown:          rgb(121, 77, 62); /* RAL 8002 */
+$ClayBrown:            rgb(126, 75, 38); /* RAL 8003 */
+$CopperBrown:          rgb(141, 73, 49); /* RAL 8004 */
+$FawnBrown:            rgb(112, 69, 42); /* RAL 8007 */
+$OliveBrown:           rgb(114, 74, 37); /* RAL 8008 */
+$NutBrown:             rgb( 90, 56, 38); /* RAL 8011 */
+$RedBrown:             rgb(102, 51, 43); /* RAL 8012 */
+$SepiaBrown:           rgb( 74, 53, 38); /* RAL 8014 */
+$ChestnutBrown:        rgb( 94, 47, 38); /* RAL 8015 */
+$MahoganyBrown:        rgb( 76, 43, 32); /* RAL 8016 */
+$ChocolateBrown:       rgb( 68, 47, 41); /* RAL 8017 */
+$GreyBrown:            rgb( 61, 54, 53); /* RAL 8019 */
+$BlackBrown:           rgb( 26, 23, 24); /* RAL 8022 */
+$OrangeBrown:          rgb(164, 87, 41); /* RAL 8023 */
+$BeigeBrown:           rgb(121, 80, 56); /* RAL 8024 */
+$PaleBrown:            rgb(117, 88, 71); /* RAL 8025 */
+$TerraBrown:           rgb( 81, 58, 42); /* RAL 8028 */
+$PearlCopper:          rgb(127, 64, 49); /* RAL 8029 */
+$Cream:                rgb(233,224,210); /* RAL 9001 */
+$GreyWhite:            rgb(215,213,203); /* RAL 9002 */
+$SignalWhite:          rgb(236,236,231); /* RAL 9003 */
+$SignalBlack:          rgb( 43, 43, 44); /* RAL 9004 */
+$JetBlack:             rgb( 14, 14, 16); /* RAL 9005 */
+$WhiteAluminium:       rgb(161,161,160); /* RAL 9006 */
+$GreyAluminium:        rgb(135,133,129); /* RAL 9007 */
+$PureWhite:            rgb(241,236,225); /* RAL 9010 */
+$GraphiteBlack:        rgb( 39, 41, 43); /* RAL 9011 */
+$TrafficWhite:         rgb(241,240,234); /* RAL 9016 */
+$TrafficBlack:         rgb( 42, 41, 42); /* RAL 9017 */
+$PapyrusWhite:         rgb(200,203,196); /* RAL 9018 */
+$PearlLightGrey:       rgb(133,133,131); /* RAL 9022 */
+$PearlDarkGrey:        rgb(121,123,122); /* RAL 9023 */
