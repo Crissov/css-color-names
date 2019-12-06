@@ -1,0 +1,22 @@
+/** RAL Classic */
+
+/** CSS variable name from numeric-ID */
+@import url("ral-classic.number.css");
+
+/** CSS variable name from official German name */
+@import url("ral-classic.de.css");
+
+/** CSS variable name from official English name */
+@import url("ral-classic.en.css");
+
+/** CSS variable name from official French name */
+@import url("ral-classic.fr.css");
+
+/** CSS variable name from official Spanish name */
+@import url("ral-classic.es.css");
+
+/** CSS variable name from official Italian name */
+@import url("ral-classic.it.css");
+
+/** CSS variable name from official Dutch name */
+@import url("ral-classic.nl.css");

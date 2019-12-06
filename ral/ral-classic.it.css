@@ -1,0 +1,218 @@
+/** RAL Classic IT */
+/** CSS variable name from official Italian name */
+
+:root {
+--beige-verdastro:          rgb(205,186,136); /* RAL 1000 */
+--beige:                    rgb(208,176,132); /* RAL 1001 */
+--giallo-sabbia:            rgb(210,170,109); /* RAL 1002 */
+--giallo-segnale:           rgb(249,168,  0); /* RAL 1003 */
+--giallo-oro:               rgb(228,158,  0); /* RAL 1004 */
+--giallo-miele:             rgb(203,142,  0); /* RAL 1005 */
+--giallo-polenta:           rgb(226,144,  0); /* RAL 1006 */
+--giallo-narciso:           rgb(232,140,  0); /* RAL 1007 */
+--beige-marrone:            rgb(175,128, 79); /* RAL 1011 */
+--giallo-limone:            rgb(221,175, 39); /* RAL 1012 */
+--bianco-perla:             rgb(227,217,198); /* RAL 1013 */
+--avorio:                   rgb(221,196,154); /* RAL 1014 */
+--avorio-chiaro:            rgb(230,210,181); /* RAL 1015 */
+--giallo-zolfo:             rgb(241,221, 56); /* RAL 1016 */
+--giallo-zafferano:         rgb(246,169, 80); /* RAL 1017 */
+--giallo-zinco:             rgb(250,202, 48); /* RAL 1018 */
+--beige-grigiastro:         rgb(164,143,122); /* RAL 1019 */
+--giallo-olivastro:         rgb(160,143,101); /* RAL 1020 */
+--giallo-navone:            rgb(246,182,  0); /* RAL 1021 */
+--giallo-traffico:          rgb(247,181,  0); /* RAL 1023 */
+--giallo-ocra:              rgb(186,143, 76); /* RAL 1024 */
+--giallo-brillante:         rgb(255,255,  0); /* RAL 1026 */
+--giallo-curry:             rgb(167,127, 14); /* RAL 1027 */
+--giallo-melone:            rgb(255,155,  0); /* RAL 1028 */
+--giallo-scopa:             rgb(226,163,  0); /* RAL 1032 */
+--giallo-dahlien:           rgb(249,154, 28); /* RAL 1033 */
+--giallo-pastello:          rgb(235,156, 82); /* RAL 1034 */
+--beige-perlato:            rgb(144,131,112); /* RAL 1035 */
+--oro-perlato:              rgb(128,100, 63); /* RAL 1036 */
+--giallo-sole:              rgb(240,146,  0); /* RAL 1037 */
+--arancio-giallastro:       rgb(218,110,  0); /* RAL 2000 */
+--arancio-rossastro:        rgb(186, 72, 27); /* RAL 2001 */
+--arancio-sanguigno:        rgb(191, 57, 34); /* RAL 2002 */
+--arancio-pastello:         rgb(246,120, 40); /* RAL 2003 */
+--arancio-puro:             rgb(226, 83,  3); /* RAL 2004 */
+--arancio-brillante:        rgb(255, 77,  6); /* RAL 2005 */
+--arancio-chiaro-brillante: rgb(255,178,  0); /* RAL 2007 */
+--rosso-arancio-chiaro:     rgb(237,107, 33); /* RAL 2008 */
+--arancio-traffico:         rgb(222, 83,  7); /* RAL 2009 */
+--arancio-segnale:          rgb(208, 93, 40); /* RAL 2010 */
+--arancio-profondo:         rgb(226,110, 14); /* RAL 2011 */
+--arancio-salmone:          rgb(213,101, 77); /* RAL 2012 */
+--arancio-perlato:          rgb(146, 62, 37); /* RAL 2013 */
+--rosso-fuoco:              rgb(167, 41, 32); /* RAL 3000 */
+--rosso-segnale:            rgb(155, 36, 35); /* RAL 3001 */
+--rosso-carminio:           rgb(155, 35, 33); /* RAL 3002 */
+--rosso-rubino:             rgb(134, 26, 34); /* RAL 3003 */
+--rosso-porpora:            rgb(107, 28, 35); /* RAL 3004 */
+--rosso-vino:               rgb( 89, 25, 31); /* RAL 3005 */
+--rosso-nerastro:           rgb( 62, 32, 34); /* RAL 3007 */
+--rosso-ossido:             rgb(109, 52, 45); /* RAL 3009 */
+--rosso-marrone:            rgb(121, 36, 35); /* RAL 3011 */
+--rosso-beige:              rgb(198,132,109); /* RAL 3012 */
+--rosso-pomodoro:           rgb(151, 46, 37); /* RAL 3013 */
+--rosa-antico:              rgb(203,115,117); /* RAL 3014 */
+--rosa-chiaro:              rgb(216,160,166); /* RAL 3015 */
+--rosso-corallo:            rgb(166, 61, 47); /* RAL 3016 */
+--rosato:                   rgb(203, 85, 93); /* RAL 3017 */
+--rosso-fragola:            rgb(199, 63, 74); /* RAL 3018 */
+--rosso-traffico:           rgb(187, 30, 16); /* RAL 3020 */
+--rosso-salmone:            rgb(207,105, 85); /* RAL 3022 */
+--rosso-brillante:          rgb(255, 45, 33); /* RAL 3024 */
+--rosso-chiaro-brillante:   rgb(255, 42, 27); /* RAL 3026 */
+--rosso-lampone:            rgb(171, 39, 60); /* RAL 3027 */
+--rosso-puro:               rgb(204, 44, 36); /* RAL 3028 */
+--rosso-oriente:            rgb(166, 52, 55); /* RAL 3031 */
+--rosso-rubino-perlato:     rgb(112, 29, 35); /* RAL 3032 */
+--rosa-perlato:             rgb(165, 58, 45); /* RAL 3033 */
+--lilla-rossastro:          rgb(129, 97,131); /* RAL 4001 */
+--viola-rossastro:          rgb(141, 60, 75); /* RAL 4002 */
+--viola-erica:              rgb(196, 97,140); /* RAL 4003 */
+--viola-bordeaux:           rgb(101, 30, 56); /* RAL 4004 */
+--lilla-bluastro:           rgb(118,104,154); /* RAL 4005 */
+--porpora-traffico:         rgb(144, 51,115); /* RAL 4006 */
+--porpora-violetto:         rgb( 71, 36, 60); /* RAL 4007 */
+--violetto-segnale:         rgb(132, 76,130); /* RAL 4008 */
+--violetto-pastello:        rgb(157,134,146); /* RAL 4009 */
+--tele-magenta:             rgb(188, 64,119); /* RAL 4010 */
+--violetto-perlato:         rgb(110, 99,135); /* RAL 4011 */
+--mora-perlato:             rgb(107,107,127); /* RAL 4012 */
+--blu-violaceo:             rgb( 49, 79,111); /* RAL 5000 */
+--blu-verdastro:            rgb( 15, 76,100); /* RAL 5001 */
+--blu-oltremare:            rgb(  0, 56,123); /* RAL 5002 */
+--blu-zaffiro:              rgb( 31, 56, 85); /* RAL 5003 */
+--blu-nerastro:             rgb( 25, 30, 40); /* RAL 5004 */
+--blu-segnale:              rgb(  0, 83,135); /* RAL 5005 */
+--blu-brillante:            rgb( 55,107,140); /* RAL 5007 */
+--blu-grigiastro:           rgb( 43, 58, 68); /* RAL 5008 */
+--blu-azzurro:              rgb( 34, 95,120); /* RAL 5009 */
+--blu-genziana:             rgb(  0, 79,124); /* RAL 5010 */
+--blu-acciaio:              rgb( 26, 43, 60); /* RAL 5011 */
+--blu-luce:                 rgb(  0,137,182); /* RAL 5012 */
+--blu-cobalto:              rgb( 25, 49, 83); /* RAL 5013 */
+--blu-colomba:              rgb( 99,125,150); /* RAL 5014 */
+--blu-cielo:                rgb(  0,124,176); /* RAL 5015 */
+--blu-traffico:             rgb(  0, 91,140); /* RAL 5017 */
+--blu-turchese:             rgb(  5,139,140); /* RAL 5018 */
+--blu-capri:                rgb(  0, 94,131); /* RAL 5019 */
+--blu-oceano:               rgb(  0, 65, 75); /* RAL 5020 */
+--blu-acqua:                rgb(  0,117,119); /* RAL 5021 */
+--blu-notte:                rgb( 34, 45, 90); /* RAL 5022 */
+--blu-distante:             rgb( 66,105,140); /* RAL 5023 */
+--blu-pastello:             rgb( 96,147,172); /* RAL 5024 */
+--blu-genziana-perlato:     rgb( 33,105,124); /* RAL 5025 */
+--blu-notte-perlato:        rgb( 15, 48, 82); /* RAL 5026 */
+--verde-patina:             rgb( 60,116, 96); /* RAL 6000 */
+--verde-smeraldo:           rgb( 54,103, 53); /* RAL 6001 */
+--verde-foglia:             rgb( 50, 89, 40); /* RAL 6002 */
+--verde-oliva:              rgb( 80, 83, 60); /* RAL 6003 */
+--verde-bluastro:           rgb(  2, 68, 66); /* RAL 6004 */
+--verde-muschio:            rgb( 17, 66, 50); /* RAL 6005 */
+--oliva-grigiastro:         rgb( 60, 57, 46); /* RAL 6006 */
+--verde-bottiglia:          rgb( 44, 50, 34); /* RAL 6007 */
+--verde-brunastro:          rgb( 55, 52, 42); /* RAL 6008 */
+--verde-abete:              rgb( 39, 53, 42); /* RAL 6009 */
+--verde-erba:               rgb( 77,111, 57); /* RAL 6010 */
+--verde-reseda:             rgb(108,124, 89); /* RAL 6011 */
+--verde-nerastro:           rgb( 48, 61, 58); /* RAL 6012 */
+--verde-canna:              rgb(125,118, 90); /* RAL 6013 */
+--oliva-giallastro:         rgb( 71, 65, 53); /* RAL 6014 */
+--oliva-nerastro:           rgb( 61, 61, 54); /* RAL 6015 */
+--verde-turchese:           rgb(  0,105, 76); /* RAL 6016 */
+--verde-maggio:             rgb( 88,127, 64); /* RAL 6017 */
+--verde-giallastro:         rgb( 97,153, 59); /* RAL 6018 */
+--verde-biancastro:         rgb(185,206,172); /* RAL 6019 */
+--verde-cromo:              rgb( 55, 66, 47); /* RAL 6020 */
+--verde-pallido:            rgb(138,153,119); /* RAL 6021 */
+--oliva-brunastro:          rgb( 58, 51, 39); /* RAL 6022 */
+--verde-traffico:           rgb(  0,131, 81); /* RAL 6024 */
+--verde-felce:              rgb( 94,110, 59); /* RAL 6025 */
+--verde-opale:              rgb(  0, 95, 78); /* RAL 6026 */
+--verde-chiaro:             rgb(126,186,181); /* RAL 6027 */
+--verde-pino:               rgb( 49, 84, 66); /* RAL 6028 */
+--verde-menta:              rgb(  0,111, 61); /* RAL 6029 */
+--verde-segnale:            rgb( 35,127, 82); /* RAL 6032 */
+--turchese-menta:           rgb( 70,135,127); /* RAL 6033 */
+--turchese-pastello:        rgb(122,172,172); /* RAL 6034 */
+--verde-perlato:            rgb( 25, 77, 37); /* RAL 6035 */
+--verde-opalo-perlato:      rgb(  4, 87, 75); /* RAL 6036 */
+--verde-puro:               rgb(  0,139, 41); /* RAL 6037 */
+--verde-brillante:          rgb(  0,181, 26); /* RAL 6038 */
+--grigio-vaio:              rgb(122,136,142); /* RAL 7000 */
+--grigio-argento:           rgb(140,150,157); /* RAL 7001 */
+--grigio-olivastro:         rgb(129,120, 99); /* RAL 7002 */
+--grigio-muschio:           rgb(122,118,105); /* RAL 7003 */
+--grigio-segnale:           rgb(155,155,155); /* RAL 7004 */
+--grigio-topo:              rgb(108,110,107); /* RAL 7005 */
+--grigio-beige:             rgb(118,106, 94); /* RAL 7006 */
+--grigio-kaki:              rgb(116, 94, 61); /* RAL 7008 */
+--grigio-verdastro:         rgb( 93, 96, 88); /* RAL 7009 */
+--grigio-tenda:             rgb( 88, 92, 86); /* RAL 7010 */
+--grigio-ferro:             rgb( 82, 89, 93); /* RAL 7011 */
+--grigio-basalto:           rgb( 87, 93, 94); /* RAL 7012 */
+--grigio-brunastro:         rgb( 87, 80, 68); /* RAL 7013 */
+--grigio-ardesia:           rgb( 79, 83, 88); /* RAL 7015 */
+--grigio-antracite:         rgb( 56, 62, 66); /* RAL 7016 */
+--grigio-nerastro:          rgb( 47, 50, 52); /* RAL 7021 */
+--grigio-ombra:             rgb( 76, 74, 68); /* RAL 7022 */
+--grigio-calcestruzzo:      rgb(128,128,118); /* RAL 7023 */
+--grigio-grafite:           rgb( 69, 73, 78); /* RAL 7024 */
+--grigio-granito:           rgb( 55, 67, 69); /* RAL 7026 */
+--grigio-pietra:            rgb(146,142,133); /* RAL 7030 */
+--grigio-bluastro:          rgb( 91,104,109); /* RAL 7031 */
+--grigio-ghiaia:            rgb(181,176,161); /* RAL 7032 */
+--grigio-cemento:           rgb(127,130,116); /* RAL 7033 */
+--grigio-giallastro:        rgb(146,136,111); /* RAL 7034 */
+--grigio-luce:              rgb(197,199,196); /* RAL 7035 */
+--grigio-platino:           rgb(151,147,146); /* RAL 7036 */
+--grigio-polvere:           rgb(122,123,122); /* RAL 7037 */
+--grigio-agata:             rgb(176,176,169); /* RAL 7038 */
+--grigio-quarzo:            rgb(107,102, 94); /* RAL 7039 */
+--grigio-finestra:          rgb(152,158,161); /* RAL 7040 */
+--grigio-traffico-a:        rgb(142,146,145); /* RAL 7042 */
+--grigio-traffico-b:        rgb( 79, 82, 80); /* RAL 7043 */
+--grigio-seta:              rgb(183,179,168); /* RAL 7044 */
+--grigio-tele-1:            rgb(141,146,149); /* RAL 7045 */
+--grigio-tele-2:            rgb(127,134,138); /* RAL 7046 */
+--grigio-tele-4:            rgb(200,200,199); /* RAL 7047 */
+--grigio-topo-perlato:      rgb(129,123,115); /* RAL 7048 */
+--marrone-verdastro:        rgb(137,105, 62); /* RAL 8000 */
+--marrone-ocra:             rgb(157, 98, 43); /* RAL 8001 */
+--marrone-segnale:          rgb(121, 77, 62); /* RAL 8002 */
+--marrone-fango:            rgb(126, 75, 38); /* RAL 8003 */
+--marrone-rame:             rgb(141, 73, 49); /* RAL 8004 */
+--marrone-capriolo:         rgb(112, 69, 42); /* RAL 8007 */
+--marrone-oliva:            rgb(114, 74, 37); /* RAL 8008 */
+--marrone-noce:             rgb( 90, 56, 38); /* RAL 8011 */
+--marrone-rossiccio:        rgb(102, 51, 43); /* RAL 8012 */
+--marrone-seppia:           rgb( 74, 53, 38); /* RAL 8014 */
+--marrone-castagna:         rgb( 94, 47, 38); /* RAL 8015 */
+--marrone-mogano:           rgb( 76, 43, 32); /* RAL 8016 */
+--marrone-cioccolata:       rgb( 68, 47, 41); /* RAL 8017 */
+--marrone-grigiastro:       rgb( 61, 54, 53); /* RAL 8019 */
+--marrone-nerastro:         rgb( 26, 23, 24); /* RAL 8022 */
+--marrone-arancio:          rgb(164, 87, 41); /* RAL 8023 */
+--marrone-beige:            rgb(121, 80, 56); /* RAL 8024 */
+--marrone-pallido:          rgb(117, 88, 71); /* RAL 8025 */
+--marrone-terra:            rgb( 81, 58, 42); /* RAL 8028 */
+--rame-perlato:             rgb(127, 64, 49); /* RAL 8029 */
+--bianco-crema:             rgb(233,224,210); /* RAL 9001 */
+--bianco-grigiastro:        rgb(215,213,203); /* RAL 9002 */
+--bianco-segnale:           rgb(236,236,231); /* RAL 9003 */
+--nero-segnale:             rgb( 43, 43, 44); /* RAL 9004 */
+--nero-intenso:             rgb( 14, 14, 16); /* RAL 9005 */
+--alluminio-brillante:      rgb(161,161,160); /* RAL 9006 */
+--alluminio-grigiastro:     rgb(135,133,129); /* RAL 9007 */
+--bianco-puro:              rgb(241,236,225); /* RAL 9010 */
+--nero-grafite:             rgb( 39, 41, 43); /* RAL 9011 */
+--bianco-traffico:          rgb(241,240,234); /* RAL 9016 */
+--nero-traffico:            rgb( 42, 41, 42); /* RAL 9017 */
+--bianco-papiro:            rgb(200,203,196); /* RAL 9018 */
+--grigio-chiaro-perlato:    rgb(133,133,131); /* RAL 9022 */
+--grigio-scuro-perlato:     rgb(121,123,122); /* RAL 9023 */
+}
