@@ -1,5 +1,5 @@
-| HHH LL CC	| CSS4 CIE LCH	| CSS sRGB	| Swatch	| Plastics (Transparent)	| DE	| EN	|
-| ---------	| ------------	| --------	| ------	| --------	| --	| --	|
+| HHH LL CC	| CSS4 CIE LCH	| Swatch	| Plastics (Transparent)	| DE	| EN	|
+| ---------	| ------------	| ------	| --------	| --	| --	|
 | H000L15C00(-P)	| `lch(15% 0% 0deg)`	| ![designplus-1](https://www.ral-farben.de/out/ralfarben/img/thumbs/designplus-1.png)	| ![plastics-p2-1](https://www.ral-farben.de/out/ralfarben/img/thumbs/plastics-p2-1.png)	| Tintenschwarz	| Ink black	|
 | H000L20C00	| `lch(20% 0% 0deg)`	| ![designplus-2](https://www.ral-farben.de/out/ralfarben/img/thumbs/designplus-2.png)	| 	| Schieferschwarz	| Slate black	|
 | H000L25C00	| `lch(25% 0% 0deg)`	| ![designplus-3](https://www.ral-farben.de/out/ralfarben/img/thumbs/designplus-3.png)	| 	| Onyxschwarz	| Onyx black	|
