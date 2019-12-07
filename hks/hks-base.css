@@ -8,7 +8,6 @@
  *
  * The full set "HKS 3000+" contains 3.520 colors separated into 4 channels (CMYK),
  * but only for `K` and `N`.
- * Fortunately, the same CMYK values almost always apply to both, `K` and `E`, in practice.
  *
  * CSS Color Level 3 only supports `device-cmyk()`,
  * the correct color space is _ISO Scale_ or _Euroscale_
@@ -16,14 +15,15 @@
  */
 
 :root {
+
 --hks-01n: device-cmyk(0% 5% 60% 0%);
 --hks-01k: device-cmyk(0% 10% 60% 0%);
---hks-01e: device-cmyk(0% 10% 60% 0%);
+--hks-01e: device-cmyk(0% 5% 60% 0%);
 --hks-01z: device-cmyk(0% 5% 70% 0%);
 
 --hks-02n: device-cmyk(2% 0% 100% 0%);
 --hks-02k: device-cmyk(5% 0% 100% 0%);
---hks-02e: device-cmyk(5% 0% 100% 0%);
+--hks-02e: device-cmyk(3% 0% 100% 0%);
 --hks-02z: device-cmyk(3% 0% 100% 0%);
 
 --hks-03n: device-cmyk(0% 0% 100% 0%);
@@ -33,92 +33,98 @@
 
 --hks-04n: device-cmyk(0% 10% 100% 0%);
 --hks-04k: device-cmyk(0% 20% 100% 0%);
---hks-04e: device-cmyk(0% 20% 100% 0%);
+--hks-04e: device-cmyk(0% 8% 100% 0%);
 --hks-04z: device-cmyk(0% 15% 100% 0%);
 
 --hks-05n: device-cmyk(0% 15% 100% 0%);
 --hks-05k: device-cmyk(0% 30% 100% 0%);
---hks-05e: device-cmyk(0% 30% 100% 0%);
+--hks-05e: device-cmyk(0% 15% 100% 0%);
 --hks-05z: device-cmyk(0% 20% 100% 0%);
 
 --hks-06n: device-cmyk(0% 30% 100% 0%);
 --hks-06k: device-cmyk(0% 45% 100% 0%);
---hks-06e: device-cmyk(0% 45% 100% 0%);
+--hks-06e: device-cmyk(0% 25% 100% 0%);
 --hks-06z: device-cmyk(0% 30% 100% 0%);
 
 --hks-07n: device-cmyk(0% 45% 100% 0%);
 --hks-07k: device-cmyk(0% 60% 100% 0%);
---hks-07e: device-cmyk(0% 60% 100% 0%);
+--hks-07e: device-cmyk(0% 45% 100% 0%);
 --hks-07z: device-cmyk(0% 40% 100% 0%);
 
 --hks-08n: device-cmyk(0% 50% 100% 0%);
 --hks-08k: device-cmyk(0% 65% 100% 0%);
---hks-08e: device-cmyk(0% 65% 100% 0%);
+--hks-08e: device-cmyk(0% 50% 100% 0%);
 --hks-08z: device-cmyk(0% 50% 100% 0%);
+
+/* no HKS 09 */
 
 --hks-10n: device-cmyk(0% 70% 90% 0%);
 --hks-10k: device-cmyk(0% 85% 100% 0%);
---hks-10e: device-cmyk(0% 85% 100% 0%);
+--hks-10e: device-cmyk(0% 70% 100% 0%);
 --hks-10z: device-cmyk(0% 60% 100% 0%);
 
 --hks-11n: device-cmyk(0% 35% 35% 0%);
 --hks-11k: device-cmyk(0% 45% 50% 0%);
---hks-11e: device-cmyk(0% 45% 50% 0%);
+--hks-11e: device-cmyk(0% 35% 40% 0%);
 --hks-11z: device-cmyk(0% 40% 50% 0%);
 
 --hks-12n: device-cmyk(0% 60% 70% 0%);
 --hks-12k: device-cmyk(0% 85% 95% 0%);
---hks-12e: device-cmyk(0% 85% 95% 0%);
+--hks-12e: device-cmyk(0% 70% 90% 0%);
 --hks-12z: device-cmyk(0% 70% 80% 0%);
 
 --hks-13n: device-cmyk(0% 70% 60% 0%);
 --hks-13k: device-cmyk(0% 100% 95% 0%);
---hks-13e: device-cmyk(0% 100% 95% 0%);
+--hks-13e: device-cmyk(0% 90% 80% 0%);
 --hks-13z: device-cmyk(0% 85% 90% 0%);
 
 --hks-14n: device-cmyk(0% 75% 70% 0%);
 --hks-14k: device-cmyk(0% 100% 100% 0%);
---hks-14e: device-cmyk(0% 100% 100% 0%);
+--hks-14e: device-cmyk(0% 90% 75% 0%);
 --hks-14z: device-cmyk(0% 85% 85% 0%);
 
 --hks-15n: device-cmyk(5% 85% 70% 0%);
 --hks-15k: device-cmyk(10% 100% 80% 0%);
---hks-15e: device-cmyk(10% 100% 80% 0%);
+--hks-15e: device-cmyk(0% 100% 70% 0%);
 --hks-15z: device-cmyk(0% 95% 70% 0%);
 
 --hks-16n: device-cmyk(10% 100% 80% 0%);
 --hks-16k: device-cmyk(30% 100% 90% 0%);
---hks-16e: device-cmyk(30% 100% 90% 0%);
+--hks-16e: device-cmyk(10% 100% 80% 0%);
 --hks-16z: device-cmyk(5% 100% 80% 0%);
 
 --hks-17n: device-cmyk(10% 100% 60% 0%);
 --hks-17k: device-cmyk(30% 100% 70% 0%);
---hks-17e: device-cmyk(30% 100% 70% 0%);
+--hks-17e: device-cmyk(10% 100% 60% 0%);
 --hks-17z: device-cmyk(5% 100% 25% 0%);
 
 --hks-18n: device-cmyk(35% 100% 65% 0%);
 --hks-18k: device-cmyk(60% 100% 80% 0%);
---hks-18e: device-cmyk(60% 100% 80% 0%);
+--hks-18e: device-cmyk(25% 100% 60% 0%);
 --hks-18z: device-cmyk(20% 100% 45% 0%);
+
+/* no HKS 19 */
+
+/* no HKS 20 */
 
 --hks-21n: device-cmyk(0% 60% 10% 0%);
 --hks-21k: device-cmyk(0% 55% 25% 0%);
---hks-21e: device-cmyk(0% 55% 25% 0%);
+--hks-21e: device-cmyk(0% 50% 20% 0%);
 --hks-21z: device-cmyk(0% 50% 15% 0%);
 
 --hks-22n: device-cmyk(0% 100% 80% 0%);
 --hks-22k: device-cmyk(0% 90% 80% 0%);
---hks-22e: device-cmyk(0% 90% 80% 0%);
+--hks-22e: device-cmyk(0% 80% 70% 0%);
 --hks-22z: device-cmyk(0% 90% 70% 0%);
 
 --hks-23n: device-cmyk(0% 100% 70% 0%);
 --hks-23k: device-cmyk(0% 100% 70% 0%);
---hks-23e: device-cmyk(0% 100% 70% 0%);
+--hks-23e: device-cmyk(0% 95% 75% 0%);
 --hks-23z: device-cmyk(0% 90% 60% 0%);
 
 --hks-24n: device-cmyk(0% 100% 35% 0%);
 --hks-24k: device-cmyk(0% 100% 50% 0%);
---hks-24e: device-cmyk(0% 100% 50% 0%);
+--hks-24e: device-cmyk(0% 90% 30% 0%);
 --hks-24z: device-cmyk(0% 100% 20% 0%);
 
 --hks-25n: device-cmyk(0% 100% 25% 0%);
@@ -128,102 +134,104 @@
 
 --hks-26n: device-cmyk(5% 100% 0% 0%);
 --hks-26k: device-cmyk(20% 100% 20% 0%);
---hks-26e: device-cmyk(20% 100% 20% 0%);
+--hks-26e: device-cmyk(5% 100% 0% 0%);
 --hks-26z: device-cmyk(2% 100% 0% 0%);
 
 --hks-27n: device-cmyk(3% 100% 0% 0%);
 --hks-27k: device-cmyk(5% 100% 0% 0%);
---hks-27e: device-cmyk(5% 100% 0% 0%);
---hks-27z: device-cmyk(5% 95% 0% 0%);
+--hks-27e: device-cmyk(8% 100% 0% 0%);
+--hks-27z: device-cmyk(3% 100% 0% 0%);
 
 --hks-28n: device-cmyk(10% 100% 15% 0%);
---hks-28k: device-cmyk(29% 100% 40% 0%);
---hks-28e: device-cmyk(29% 100% 40% 0%);
---hks-28z: device-cmyk(30% 80% 0% 0%);
+--hks-28k: device-cmyk(20% 100% 40% 0%);
+--hks-28e: device-cmyk(20% 100% 30% 0%);
+--hks-28z: device-cmyk(5% 95% 0% 0%);
 
 --hks-29n: device-cmyk(35% 100% 0% 0%);
 --hks-29k: device-cmyk(50% 100% 0% 0%);
---hks-29e: device-cmyk(50% 100% 0% 0%);
+--hks-29e: device-cmyk(35% 90% 0% 0%);
 --hks-29z: device-cmyk(30% 80% 0% 0%);
+
+/* no HKS 30 */
 
 --hks-31n: device-cmyk(17% 95% 0% 0%);
 --hks-31k: device-cmyk(20% 100% 0% 0%);
---hks-31e: device-cmyk(20% 100% 0% 0%);
+--hks-31e: device-cmyk(17% 95% 0% 0%);
 --hks-31z: device-cmyk(15% 90% 0% 0%);
 
 --hks-32n: device-cmyk(5% 100% 0% 0%);
 --hks-32k: device-cmyk(10% 100% 0% 0%);
---hks-32e: device-cmyk(10% 100% 0% 0%);
+--hks-32e: device-cmyk(7% 90% 0% 0%);
 --hks-32z: device-cmyk(8% 95% 0% 0%);
 
 --hks-33n: device-cmyk(40% 100% 0% 0%);
 --hks-33k: device-cmyk(60% 100% 0% 0%);
---hks-33e: device-cmyk(60% 100% 0% 0%);
+--hks-33e: device-cmyk(40% 90% 0% 0%);
 --hks-33z: device-cmyk(30% 95% 0% 0%);
 
 --hks-34n: device-cmyk(60% 90% 0% 0%);
 --hks-34k: device-cmyk(80% 100% 0% 0%);
---hks-34e: device-cmyk(80% 100% 0% 0%);
+--hks-34e: device-cmyk(55% 80% 0% 0%);
 --hks-34z: device-cmyk(65% 85% 0% 0%);
 
 --hks-35n: device-cmyk(90% 80% 0% 0%);
 --hks-35k: device-cmyk(90% 90% 0% 0%);
---hks-35e: device-cmyk(90% 90% 0% 0%);
+--hks-35e: device-cmyk(80% 75% 0% 0%);
 --hks-35z: device-cmyk(90% 75% 0% 0%);
 
 --hks-36n: device-cmyk(70% 90% 0% 0%);
 --hks-36k: device-cmyk(80% 90% 0% 0%);
---hks-36e: device-cmyk(80% 90% 0% 0%);
+--hks-36e: device-cmyk(70% 80% 0% 0%);
 --hks-36z: device-cmyk(75% 85% 0% 0%);
 
 --hks-37n: device-cmyk(80% 90% 0% 0%);
 --hks-37k: device-cmyk(90% 100% 0% 0%);
---hks-37e: device-cmyk(90% 100% 0% 0%);
+--hks-37e: device-cmyk(70% 85% 0% 0%);
 --hks-37z: device-cmyk(85% 90% 0% 0%);
 
 --hks-38n: device-cmyk(90% 50% 15% 40%);
 --hks-38k: device-cmyk(100% 60% 20% 70%);
---hks-38e: device-cmyk(100% 60% 20% 70%);
+--hks-38e: device-cmyk(80% 50% 15% 35%);
 --hks-38z: device-cmyk(100% 60% 10% 30%);
 
 --hks-39n: device-cmyk(100% 40% 0% 0%);
 --hks-39k: device-cmyk(90% 50% 0% 0%);
---hks-39e: device-cmyk(90% 50% 0% 0%);
+--hks-39e: device-cmyk(90% 30% 0% 0%);
 --hks-39z: device-cmyk(100% 25% 0% 0%);
 
 --hks-40n: device-cmyk(80% 7% 3% 0%);
 --hks-40k: device-cmyk(100% 30% 15% 0%);
---hks-40e: device-cmyk(100% 30% 15% 0%);
+--hks-40e: device-cmyk(90% 15% 10% 0%);
 --hks-40z: device-cmyk(100% 0% 3% 0%);
 
 --hks-41n: device-cmyk(90% 70% 0% 35%);
 --hks-41k: device-cmyk(100% 70% 10% 60%);
---hks-41e: device-cmyk(100% 70% 10% 60%);
+--hks-41e: device-cmyk(90% 60% 10% 25%);
 --hks-41z: device-cmyk(95% 55% 0% 30%);
 
 --hks-42n: device-cmyk(100% 60% 0% 0%);
 --hks-42k: device-cmyk(100% 80% 0% 0%);
---hks-42e: device-cmyk(100% 80% 0% 0%);
+--hks-42e: device-cmyk(100% 50% 0% 0%);
 --hks-42z: device-cmyk(100% 55% 0% 0%);
 
 --hks-43n: device-cmyk(100% 55% 0% 0%);
 --hks-43k: device-cmyk(100% 70% 0% 0%);
---hks-43e: device-cmyk(100% 70% 0% 0%);
+--hks-43e: device-cmyk(100% 45% 0% 0%);
 --hks-43z: device-cmyk(100% 60% 0% 0%);
 
 --hks-44n: device-cmyk(100% 30% 0% 0%);
 --hks-44k: device-cmyk(100% 50% 0% 0%);
---hks-44e: device-cmyk(100% 50% 0% 0%);
+--hks-44e: device-cmyk(100% 22% 0% 0%);
 --hks-44z: device-cmyk(100% 30% 0% 0%);
 
 --hks-45n: device-cmyk(90% 75% 0% 0%);
 --hks-45k: device-cmyk(90% 70% 0% 0%);
---hks-45e: device-cmyk(90% 70% 0% 0%);
+--hks-45e: device-cmyk(100% 55% 0% 0%);
 --hks-45z: device-cmyk(95% 70% 0% 0%);
 
---hks-46n: device-cmyk(90% 20% 5% 5%);
+--hks-46n: device-cmyk(90% 20% 5% 0%);
 --hks-46k: device-cmyk(90% 30% 5% 5%);
---hks-46e: device-cmyk(90% 30% 5% 5%);
+--hks-46e: device-cmyk(90% 18% 10% 0%);
 --hks-46z: device-cmyk(95% 5% 1% 10%);
 
 --hks-47n: device-cmyk(100% 3% 0% 0%);
@@ -233,173 +241,185 @@
 
 --hks-48n: device-cmyk(100% 0% 5% 0%);
 --hks-48k: device-cmyk(100% 0% 10% 0%);
---hks-48e: device-cmyk(100% 0% 10% 0%);
+--hks-48e: device-cmyk(100% 0% 12% 0%);
 --hks-48z: device-cmyk(100% 0% 2% 0%);
 
 --hks-49n: device-cmyk(100% 0% 8% 0%);
 --hks-49k: device-cmyk(100% 20% 10% 0%);
---hks-49e: device-cmyk(100% 20% 10% 0%);
+--hks-49e: device-cmyk(100% 5% 15% 0%);
 --hks-49z: device-cmyk(100% 2% 2% 0%);
 
 --hks-50n: device-cmyk(50% 0% 5% 0%);
 --hks-50k: device-cmyk(65% 0% 5% 0%);
---hks-50e: device-cmyk(65% 0% 5% 0%);
+--hks-50e: device-cmyk(50% 0% 5% 0%);
 --hks-50z: device-cmyk(70% 0% 3% 0%);
 
 --hks-51n: device-cmyk(100% 0% 35% 0%);
 --hks-51k: device-cmyk(100% 0% 45% 0%);
---hks-51e: device-cmyk(100% 0% 45% 0%);
+--hks-51e: device-cmyk(95% 0% 30% 0%);
 --hks-51z: device-cmyk(90% 0% 25% 0%);
 
 --hks-52n: device-cmyk(100% 0% 50% 0%);
 --hks-52k: device-cmyk(95% 0% 55% 0%);
---hks-52e: device-cmyk(95% 0% 55% 0%);
+--hks-52e: device-cmyk(95% 0% 50% 0%);
 --hks-52z: device-cmyk(95% 0% 40% 0%);
 
 --hks-53n: device-cmyk(80% 0% 45% 0%);
 --hks-53k: device-cmyk(80% 0% 60% 0%);
---hks-53e: device-cmyk(80% 0% 60% 0%);
+--hks-53e: device-cmyk(70% 0% 40% 0%);
 --hks-53z: device-cmyk(70% 0% 40% 0%);
 
 --hks-54n: device-cmyk(80% 0% 65% 0%);
---hks-54k: device-cmyk(100% 0% 80% 0%);
---hks-54e: device-cmyk(100% 0% 80% 0%);
+--hks-54k: device-cmyk(100% 0% 80% 10%);
+--hks-54e: device-cmyk(85% 0% 65% 0%);
 --hks-54z: device-cmyk(90% 0% 65% 0%);
 
 --hks-55n: device-cmyk(100% 0% 70% 0%);
---hks-55k: device-cmyk(100% 0% 80% 30%);
---hks-55e: device-cmyk(100% 0% 80% 30%);
+--hks-55k: device-cmyk(100% 0% 70% 30%);
+--hks-55e: device-cmyk(100% 0% 65% 0%);
 --hks-55z: device-cmyk(90% 0% 55% 0%);
 
 --hks-56n: device-cmyk(100% 0% 55% 20%);
 --hks-56k: device-cmyk(100% 50% 80% 0%);
---hks-56e: device-cmyk(100% 50% 80% 0%);
+--hks-56e: device-cmyk(100% 0% 50% 20%);
 --hks-56z: device-cmyk(100% 0% 45% 15%);
 
 --hks-57n: device-cmyk(80% 0% 70% 0%);
 --hks-57k: device-cmyk(100% 0% 90% 20%);
---hks-57e: device-cmyk(100% 0% 90% 20%);
+--hks-57e: device-cmyk(85% 0% 70% 0%);
 --hks-57z: device-cmyk(95% 0% 70% 0%);
 
 --hks-58n: device-cmyk(85% 0% 85% 25%);
 --hks-58k: device-cmyk(60% 0% 65% 50%);
---hks-58e: device-cmyk(60% 0% 65% 50%);
+--hks-58e: device-cmyk(90% 0% 90% 25%);
 --hks-58z: device-cmyk(85% 0% 100% 25%);
 
 --hks-59n: device-cmyk(100% 0% 40% 0%);
 --hks-59k: device-cmyk(100% 0% 50% 20%);
---hks-59e: device-cmyk(100% 0% 50% 20%);
---hks-59z: device-cmyk(100% 0% 50% 20%);
+--hks-59e: device-cmyk(100% 0% 45% 0%);
+--hks-59z: device-cmyk(100% 0% 40% 5%);
 
 --hks-60n: device-cmyk(55% 0% 90% 0%);
---hks-60k: device-cmyk(80% 5% 100% 0%);
---hks-60e: device-cmyk(80% 5% 100% 0%);
+--hks-60k: device-cmyk(80% 5% 100% 10%);
+--hks-60e: device-cmyk(65% 0% 100% 0%);
 --hks-60z: device-cmyk(60% 0% 90% 0%);
 
 --hks-61n: device-cmyk(60% 0% 90% 45%);
 --hks-61k: device-cmyk(70% 0% 100% 75%);
---hks-61e: device-cmyk(70% 0% 100% 75%);
+--hks-61e: device-cmyk(95% 0% 85% 35%);
 --hks-61z: device-cmyk(70% 0% 95% 25%);
 
 --hks-62n: device-cmyk(10% 0% 70% 45%);
 --hks-62k: device-cmyk(10% 0% 70% 60%);
---hks-62e: device-cmyk(10% 0% 70% 60%);
+--hks-62e: device-cmyk(10% 0% 70% 35%);
 --hks-62z: device-cmyk(20% 10% 85% 20%);
 
 --hks-63n: device-cmyk(60% 0% 90% 10%);
 --hks-63k: device-cmyk(60% 0% 90% 40%);
---hks-63e: device-cmyk(60% 0% 90% 40%);
+--hks-63e: device-cmyk(50% 0% 100% 10%);
 --hks-63z: device-cmyk(60% 0% 80% 0%);
 
 --hks-64n: device-cmyk(65% 0% 80% 0%);
 --hks-64k: device-cmyk(85% 0% 100% 10%);
---hks-64e: device-cmyk(85% 0% 100% 10%);
+--hks-64e: device-cmyk(60% 0% 90% 0%);
 --hks-64z: device-cmyk(70% 0% 80% 0%);
 
 --hks-65n: device-cmyk(45% 0% 75% 0%);
 --hks-65k: device-cmyk(65% 0% 100% 0%);
---hks-65e: device-cmyk(65% 0% 100% 0%);
+--hks-65e: device-cmyk(55% 0% 90% 0%);
 --hks-65z: device-cmyk(45% 0% 60% 0%);
 
 --hks-66n: device-cmyk(40% 0% 90% 0%);
---hks-66k: device-cmyk(60% 0% 100% 0%);
---hks-66e: device-cmyk(60% 0% 100% 0%);
+--hks-66k: device-cmyk(60% 0% 100% 10%);
+--hks-66e: device-cmyk(45% 0% 95% 0%);
 --hks-66z: device-cmyk(45% 0% 75% 0%);
 
 --hks-67n: device-cmyk(40% 0% 95% 0%);
 --hks-67k: device-cmyk(60% 0% 95% 0%);
---hks-67e: device-cmyk(60% 0% 95% 0%);
+--hks-67e: device-cmyk(40% 0% 95% 0%);
 --hks-67z: device-cmyk(40% 0% 70% 0%);
 
 --hks-68n: device-cmyk(20% 10% 100% 0%);
 --hks-68k: device-cmyk(20% 20% 100% 0%);
---hks-68e: device-cmyk(20% 20% 100% 0%);
---hks-68z: device-cmyk(10% 0% 80% 0%);
+--hks-68e: device-cmyk(5% 5% 100% 3%);
+--hks-68z: device-cmyk(20% 0% 80% 0%);
 
 --hks-69n: device-cmyk(10% 0% 100% 0%);
 --hks-69k: device-cmyk(20% 0% 100% 0%);
---hks-69e: device-cmyk(20% 0% 100% 0%);
+--hks-69e: device-cmyk(7% 0% 100% 0%);
 --hks-69z: device-cmyk(5% 0% 100% 0%);
 
+/* no HKS 70 */
+
 --hks-71n: device-cmyk(0% 30% 100% 0%);
---hks-71k: device-cmyk(10% 50% 100% 0%);
---hks-71e: device-cmyk(10% 50% 100% 0%);
+--hks-71k: device-cmyk(10% 50% 100% 10%);
+--hks-71e: device-cmyk(0% 20% 80% 5%);
 --hks-71z: device-cmyk(0% 25% 90% 0%);
 
 --hks-72n: device-cmyk(0% 40% 100% 2%);
 --hks-72k: device-cmyk(10% 55% 100% 0%);
---hks-72e: device-cmyk(10% 55% 100% 0%);
+--hks-72e: device-cmyk(0% 40% 100% 0%);
 --hks-72z: device-cmyk(0% 35% 90% 0%);
 
 --hks-73n: device-cmyk(20% 40% 100% 0%);
 --hks-73k: device-cmyk(0% 55% 100% 30%);
---hks-73e: device-cmyk(0% 55% 100% 30%);
+--hks-73e: device-cmyk(0% 35% 100% 10%);
 --hks-73z: device-cmyk(0% 35% 100% 15%);
 
 --hks-74n: device-cmyk(0% 35% 100% 35%);
 --hks-74k: device-cmyk(0% 50% 100% 55%);
---hks-74e: device-cmyk(0% 50% 100% 55%);
+--hks-74e: device-cmyk(0% 35% 100% 25%);
 --hks-74z: device-cmyk(0% 40% 100% 30%);
 
 --hks-75n: device-cmyk(10% 30% 80% 40%);
 --hks-75k: device-cmyk(10% 30% 80% 60%);
---hks-75e: device-cmyk(10% 30% 80% 60%);
+--hks-75e: device-cmyk(30% 30% 100% 10%);
 --hks-75z: device-cmyk(25% 25% 100% 15%);
 
 --hks-76n: device-cmyk(10% 40% 80% 60%);
 --hks-76k: device-cmyk(0% 60% 90% 80%);
---hks-76e: device-cmyk(0% 60% 90% 80%);
+--hks-76e: device-cmyk(0% 50% 100% 55%);
 --hks-76z: device-cmyk(0% 55% 100% 50%);
 
 --hks-77n: device-cmyk(0% 50% 90% 55%);
 --hks-77k: device-cmyk(0% 60% 60% 70%);
---hks-77e: device-cmyk(0% 60% 60% 70%);
+--hks-77e: device-cmyk(0% 65% 80% 60%);
 --hks-77z: device-cmyk(0% 60% 100% 40%);
 
---hks-78n: device-cmyk(0% 55% 80% 0%);
+--hks-78n: device-cmyk(0% 55% 80% 40%);
 --hks-78k: device-cmyk(60% 95% 100% 0%);
---hks-78e: device-cmyk(60% 95% 100% 0%);
+--hks-78e: device-cmyk(10% 60% 100% 15%);
 --hks-78z: device-cmyk(0% 60% 90% 30%);
+
+/* no HKS 79 */
+
+/* no HKS 80 */
 
 --hks-81n: device-cmyk(0% 60% 100% 0%);
 --hks-81k: device-cmyk(10% 80% 100% 0%);
---hks-81e: device-cmyk(10% 80% 100% 0%);
+--hks-81e: device-cmyk(0% 60% 100% 0%);
 --hks-81z: device-cmyk(0% 70% 100% 0%);
 
 --hks-82n: device-cmyk(0% 65% 100% 5%);
 --hks-82k: device-cmyk(0% 85% 100% 30%);
---hks-82e: device-cmyk(0% 85% 100% 30%);
---hks-82z: device-cmyk(10% 70% 80% 30%);
+--hks-82e: device-cmyk(10% 70% 100% 0%);
+--hks-82z: device-cmyk(10% 70% 80% 0%);
 
 --hks-83n: device-cmyk(0% 80% 90% 40%);
 --hks-83k: device-cmyk(0% 75% 70% 50%);
---hks-83e: device-cmyk(0% 75% 70% 50%);
+--hks-83e: device-cmyk(10% 70% 100% 15%);
 --hks-83z: device-cmyk(20% 90% 100% 15%);
 
 --hks-84n: device-cmyk(0% 60% 85% 50%);
 --hks-84k: device-cmyk(0% 80% 70% 60%);
---hks-84e: device-cmyk(0% 80% 70% 60%);
+--hks-84e: device-cmyk(10% 80% 100% 30%);
 --hks-84z: device-cmyk(50% 100% 100% 15%);
+
+/* no HKS 85 */
+
+/* no HKS 86 */
+
+/* no HKS 87 */
 
 --hks-88n: device-cmyk(0% 0% 0% 100%);
 --hks-88k: device-cmyk(0% 0% 0% 100%);
@@ -413,36 +433,45 @@
 
 --hks-90n: device-cmyk(0% 20% 20% 95%);
 --hks-90k: device-cmyk(0% 25% 30% 90%);
---hks-90e: device-cmyk(0% 25% 30% 90%);
+--hks-90e: device-cmyk(0% 20% 20% 95%);
 --hks-90z: device-cmyk(0% 25% 30% 90%);
 
 --hks-91n: device-cmyk(10% 0% 12% 40%);
 --hks-91k: device-cmyk(10% 0% 10% 40%);
---hks-91e: device-cmyk(10% 0% 10% 40%);
+--hks-91e: device-cmyk(10% 0% 7% 30%);
 --hks-91z: device-cmyk(10% 0% 0% 20%);
 
 --hks-92n: device-cmyk(10% 0% 5% 70%);
 --hks-92k: device-cmyk(10% 0% 0% 70%);
---hks-92e: device-cmyk(10% 0% 0% 70%);
+--hks-92e: device-cmyk(10% 0% 2% 55%);
 --hks-92z: device-cmyk(15% 5% 0% 45%);
 
 --hks-93n: device-cmyk(25% 0% 5% 75%);
 --hks-93k: device-cmyk(20% 0% 10% 80%);
---hks-93e: device-cmyk(20% 0% 10% 80%);
+--hks-93e: device-cmyk(20% 0% 0% 70%);
 --hks-93z: device-cmyk(25% 10% 0% 55%);
+
+/* no HKS 94 */
 
 --hks-95n: device-cmyk(7% 0% 15% 45%);
 --hks-95k: device-cmyk(0% 0% 20% 50%);
---hks-95e: device-cmyk(0% 0% 20% 50%);
+--hks-95e: device-cmyk(10% 5% 18% 30%);
 --hks-95z: device-cmyk(0% 2% 7% 30%);
 
 --hks-96n: device-cmyk(10% 3% 20% 50%);
 --hks-96k: device-cmyk(0% 0% 20% 60%);
---hks-96e: device-cmyk(0% 0% 20% 60%);
+--hks-96e: device-cmyk(10% 3% 10% 45%);
 --hks-96z: device-cmyk(15% 0% 5% 50%);
 
---hks-97n: device-cmyk(14% 0% 20% 95%);
+--hks-97n: device-cmyk(15% 0% 20% 95%);
 --hks-97k: device-cmyk(10% 0% 20% 90%);
---hks-97e: device-cmyk(10% 0% 20% 90%);
+--hks-97e: device-cmyk(15% 0% 20% 85%);
 --hks-97z: device-cmyk(15% 0% 20% 90%);
+
+/* Gold metallic not available everywhere */
+--hks-98k: device-cmyk(35% 46% 70% 35%);
+
+/* Silver metallic not available everywhere */
+--hks-99k: device-cmyk(39% 31% 32% 14%);
+
 }
