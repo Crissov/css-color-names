@@ -1,0 +1,114 @@
+/**
+ * RAL approximations of 88 HKS-K base colors for glossy, coated paper
+ * variants with `-ralx` instead of `-ral` are closer but worse visually
+ */
+@import url("../ral/ral-classic.number.css");
+:root {
+--hks-01k-ralx:var(--ral-1012); /* CMYK(0% 5% 60% 0%) */;
+--hks-01k-ral: var(--ral-1016); /* CMYK(0% 5% 60% 0%) */;
+--hks-02k-ralx:var(--ral-1023); /* CMYK(2% 0% 100% 0%) */;
+--hks-02k-ral: var(--ral-1018); /* CMYK(2% 0% 100% 0%) */;
+--hks-03k-ralx:var(--ral-1023); /* CMYK(0% 0% 100% 0%) */;
+--hks-03k-ral: var(--ral-1018); /* CMYK(0% 0% 100% 0%) */;
+--hks-04k-ral: var(--ral-1023); /* CMYK(0% 10% 100% 0%) */;
+--hks-05k-ral: var(--ral-1028); /* CMYK(0% 15% 100% 0%) */;
+--hks-06k-ral: var(--ral-1028); /* CMYK(0% 30% 100% 0%) */;
+--hks-07k-ral: var(--ral-1028); /* CMYK(0% 45% 100% 0%) */;
+--hks-08k-ral: var(--ral-2004); /* CMYK(0% 50% 100% 0%) */;
+/* no HKS 09N */
+--hks-10k-ral: var(--ral-2004); /* CMYK(0% 70% 90% 0%) */;
+--hks-11k-ral: var(--ral-2012); /* CMYK(0% 30% 35% 0%) */;
+--hks-12k-ralx:var(--ral-3020); /* CMYK(0% 60% 70% 0%) */;
+--hks-12k-ral: var(--ral-2002); /* CMYK(0% 60% 70% 0%) */;
+--hks-13k-ral: var(--ral-3020); /* CMYK(0% 90% 80% 0%) */;
+--hks-14k-ral: var(--ral-3020); /* CMYK(0% 75% 70% 0%) */;
+--hks-15k-ral: var(--ral-3020); /* CMYK(5% 85% 70% 0%) */;
+--hks-16k-ral: var(--ral-3031); /* CMYK(0% 100% 80% 0%) */;
+--hks-17k-ral: var(--ral-3027); /* CMYK(10% 100% 60% 0%) */;
+--hks-18k-ralx:var(--ral-4004); /* CMYK(35% 100% 60% 0%) */;
+--hks-18k-ral: var(--ral-3004); /* CMYK(35% 100% 60% 0%) */;
+/* no HKS 19N */
+/* no HKS 20N */
+--hks-21k-ral: var(--ral-3014); /* CMYK(0% 60% 15% 0%) */;
+--hks-22k-ral: var(--ral-3020); /* CMYK(0% 100% 80% 0%) */;
+--hks-23k-ral: var(--ral-3020); /* CMYK(0% 100% 70% 0%) */;
+--hks-24k-ral: var(--ral-3027); /* CMYK(0% 100% 30% 0%) */;
+--hks-25k-ral: var(--ral-4010); /* CMYK(0% 100% 25% 0%) */;
+--hks-26k-ral: var(--ral-4010); /* CMYK(5% 100% 0% 0%) */;
+--hks-27k-ral: var(--ral-4010); /* CMYK(3% 100% 60% 0%) */;
+--hks-28k-ral: var(--ral-4010); /* CMYK(10% 100% 15% 0%) */;
+--hks-29k-ral: var(--ral-4006); /* CMYK(35% 100% 0% 0%) */;
+/* no HKS 30N */
+--hks-31k-ral: var(--ral-4010); /* CMYK(10% 95% 0% 0%) */;
+--hks-32k-ral: var(--ral-4010); /* CMYK(5% 100% 0% 0%) */;
+--hks-33k-ral: var(--ral-4006); /* CMYK(40% 100% 0% 0%) */;
+--hks-34k-ral: var(--ral-5002); /* CMYK(60% 90% 0% 0%) */;
+--hks-35k-ral: var(--ral-5002); /* CMYK(80% 80% 0% 0%) */;
+--hks-36k-ral: var(--ral-5002); /* CMYK(60% 80% 0% 0%) */;
+--hks-37k-ral: var(--ral-5002); /* CMYK(70% 90% 0% 0%) */;
+--hks-38k-ral: var(--ral-5011); /* CMYK(90% 50% 15% 30%) */;
+--hks-39k-ral: var(--ral-5005); /* CMYK(100% 40% 0% 0%) */;
+--hks-40k-ral: var(--ral-5012); /* CMYK(80% 7% 3% 0%) */;
+--hks-41k-ral: var(--ral-5003); /* CMYK(90% 60% 10% 30%) */;
+--hks-42k-ral: var(--ral-5002); /* CMYK(90% 55% 0% 0%) */;
+--hks-43k-ralx:var(--ral-5002); /* CMYK(100% 50% 0% 0%) */;
+--hks-43k-ral: var(--ral-5005); /* CMYK(100% 50% 0% 0%) */;
+--hks-44k-ral: var(--ral-5017); /* CMYK(100% 30% 0% 0%) */;
+--hks-45k-ral: var(--ral-5002); /* CMYK(90% 70% 0% 0%) */;
+--hks-46k-ral: var(--ral-5012); /* CMYK(90% 20% 5% 0%) */;
+--hks-47k-ral: var(--ral-5015); /* CMYK(100% 3% 0% 0%) */;
+--hks-48k-ralx:var(--ral-5021); /* CMYK(100% 0% 5% 0%) */;
+--hks-48k-ral: var(--ral-5012); /* CMYK(100% 0% 5% 0%) */;
+--hks-49k-ral: var(--ral-5015); /* CMYK(100% 0% 8% 0%) */;
+--hks-50k-ral: var(--ral-5012); /* CMYK(50% 0% 10% 0%) */;
+--hks-51k-ral: var(--ral-5018); /* CMYK(100% 0% 30% 0%) */;
+--hks-52k-ralx:var(--ral-6016); /* CMYK(100% 0% 45% 0%) */;
+--hks-52k-ral: var(--ral-5018); /* CMYK(100% 0% 45% 0%) */;
+--hks-53k-ral: var(--ral-6024); /* CMYK(80% 0% 45% 0%) */;
+--hks-54k-ral: var(--ral-6024); /* CMYK(85% 0% 65% 0%) */;
+--hks-55k-ral: var(--ral-6029); /* CMYK(100% 0% 65% 0%) */;
+--hks-56k-ral: var(--ral-6026); /* CMYK(100% 0% 55% 20%) */;
+--hks-57k-ral: var(--ral-6024); /* CMYK(80% 0% 70% 0%) */;
+--hks-58k-ral: var(--ral-6002); /* CMYK(85% 0% 85% 20%) */;
+--hks-59k-ral: var(--ral-6026); /* CMYK(100% 0% 40% 0%) */;
+--hks-60k-ral: var(--ral-6018); /* CMYK(80% 0% 70% 0%) */;
+--hks-61k-ral: var(--ral-6002); /* CMYK(60% 0% 90% 35%) */;
+--hks-62k-ral: var(--ral-6025); /* CMYK(10% 0% 70% 35%) */;
+--hks-63k-ral: var(--ral-6010); /* CMYK(55% 0% 90% 10%) */;
+--hks-64k-ral: var(--ral-6018); /* CMYK(65% 0% 80% 0%) */;
+--hks-65k-ral: var(--ral-6018); /* CMYK(45% 0% 75% 0%) */;
+--hks-66k-ral: var(--ral-6018); /* CMYK(40% 0% 90% 0%) */;
+/*--hks-67k-ral: var(--ral-); /* CMYK(40% 0% 100% 0%) */;
+--hks-68k-ral: var(--ral-1012); /* CMYK(20% 7% 100% 0%) */;
+--hks-69k-ral: var(--ral-1016); /* CMYK(10% 0% 100% 0%) */;
+/* no HKS 70N */
+--hks-71k-ral: var(--ral-1016); /* CMYK(0% 25% 100% 0%) */;
+--hks-72k-ral: var(--ral-2000); /* CMYK(0% 30% 100% 2%) */;
+--hks-73k-ral: var(--ral-8001); /* CMYK(20% 40% 100% 0%) */;
+--hks-74k-ral: var(--ral-8001); /* CMYK(0% 30% 100% 25%) */;
+--hks-75k-ral: var(--ral-8000); /* CMYK(10% 30% 80% 30%) */;
+--hks-76k-ral: var(--ral-8028); /* CMYK(10% 40% 80% 50%) */;
+--hks-77k-ral: var(--ral-8011); /* CMYK(0% 50% 90% 50%) */;
+--hks-78k-ral: var(--ral-3009); /* CMYK(0% 55% 80% 30%) */;
+/* no HKS 79N */
+/* no HKS 80N */
+--hks-81k-ral: var(--ral-2001); /* CMYK(0% 55% 100% 0%) */;
+--hks-82k-ral: var(--ral-3013); /* CMYK(0% 65% 100% 5%) */;
+--hks-83k-ral: var(--ral-3009); /* CMYK(0% 70% 90% 30%) */;
+--hks-84k-ral: var(--ral-8015); /* CMYK(0% 70% 85% 40%) */;
+/* no HKS 85N */
+/* no HKS 86N */
+/* no HKS 87N */
+--hks-88k-ral: var(--ral-8022); /* CMYK(0% 0% 0% 100%) */;
+--hks-89k-ral: var(--ral-1019); /* CMYK(0% 5% 30% 30%) */;
+--hks-90k-ral: var(--ral-8017); /* CMYK(0% 20% 20% 85%) */;
+--hks-91k-ral: var(--ral-7004); /* CMYK(15% 0% 15% 30%) */;
+--hks-92k-ral: var(--ral-7005); /* CMYK(10% 0% 10% 50%) */;
+--hks-93k-ral: var(--ral-7024); /* CMYK(35% 0% 10% 60%) */;
+/* no HKS 94N */
+--hks-95k-ral: var(--ral-7030); /* CMYK(0% 0% 20% 40%) */;
+--hks-96k-ral: var(--ral-7005); /* CMYK(10% 3% 20% 40%) */;
+--hks-97k-ral: var(--ral-6006); /* CMYK(15% 0% 25% 95%) */;
+/* no HKS 98N */
+/* no HKS 99N */
+}
