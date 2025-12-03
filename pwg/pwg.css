@@ -1,0 +1,87 @@
+/** 
+ * Taken from Table 2 'Media Color Names'
+ * in IEEE-ISTO 5101.1: PWG Media Standardized Names v2.1 (MSN)
+ * https://ftp.pwg.org/pub/pwg/candidates/cs-pwgmsn21-20230915-5101.1.pdf
+ */
+:root {
+--pwg-no-color: #FFFFFF00 /* Transparent */;
+--pwg-black: #000000 /* Black */;
+--pwg-clear-black: #0000007F /* Clear Black */;
+--pwg-light-black: #808080 /* Light Black */;
+--pwg-blue: #0000FF /* Blue */;
+--pwg-clear-blue: #0000FF7F /* Clear Blue */;
+--pwg-dark-blue: #00008B /* Dark Blue */;
+--pwg-light-blue: #ADD8E6 /* Light Blue */;
+--pwg-brown: #A52A2A /* Brown */;
+--pwg-clear-brown: #A52A2A7F /* Clear Brown */;
+--pwg-dark-brown: #5C4033 /* Dark Brown */;
+--pwg-light-brown: #9966FF /* Light Brown */;
+--pwg-buff: #F0DC82 /* Buff */;
+--pwg-clear-buff: #F0DC827F /* Clear Buff */;
+--pwg-dark-buff: #976638 /* Dark Buff */;
+--pwg-light-buff: #ECD9B0 /* Light Buff */;
+--pwg-cyan: #00FFFF /* Cyan */;
+--pwg-clear-cyan: #00FFFF7F /* Clear Cyan */;
+--pwg-dark-cyan: #008B8B /* Dark Cyan */;
+--pwg-light-cyan: #E0FFFF /* Light Cyan */;
+--pwg-gold: #FFD700 /* Gold */;
+--pwg-clear-gold: #FFD7007F /* Clear Gold */;
+--pwg-dark-gold: #EEBC1D /* Dark Gold */;
+--pwg-light-gold: #F1E5AC /* Light Gold */;
+--pwg-goldenrod: #DAA520 /* Goldenrod */;
+--pwg-clear-goldenrod: #DAA5207F /* Clear Goldenrod */;
+--pwg-dark-goldenrod: #B8860B /* Dark Goldenrod */;
+--pwg-light-goldenrod: #FFEC8B /* Light Goldenrod */;
+--pwg-gray: #808080 /* Gray */;
+--pwg-clear-gray: #8080807F /* Clear Gray */;
+--pwg-dark-gray: #404040 /* Dark Gray */;
+--pwg-light-gray: #D3D3D3 /* Light Gray */;
+--pwg-green: #008000 /* Green */;
+--pwg-clear-green: #0080007F /* Clear Green */;
+--pwg-dark-green: #006400 /* Dark Green */;
+--pwg-light-green: #90EE90 /* Light Green */;
+--pwg-ivory: #FFFFF0 /* Ivory */;
+--pwg-clear-ivory: #FFFFF07F /* Clear Ivory */;
+--pwg-dark-ivory: #F2E58F /* Dark Ivory */;
+--pwg-light-ivory: #FFF8C9 /* Light Ivory */;
+--pwg-magenta: #FF00FF /* Magenta */;
+--pwg-clear-magenta: #FF00FF7F /* Clear Magenta */;
+--pwg-dark-magenta: #8B008B /* Dark Magenta */;
+--pwg-light-magenta: #FF77FF /* Light Magenta */;
+--pwg-multi-color: none /* Multi-Color */;
+--pwg-clear-multi-color: none /* Clear Multi-Color */;
+--pwg-mustard: #FFDB58 /* Mustard */;
+--pwg-clear-mustard: #FFDB587F /* Clear Mustard */;
+--pwg-dark-mustard: #7C7C40 /* Dark Mustard */;
+--pwg-light-mustard: #EEDD62 /* Light Mustard */;
+--pwg-orange: #FFA500 /* Orange */;
+--pwg-clear-orange: #FFA5007F /* Clear Orange */;
+--pwg-dark-orange: #FF8C00 /* Dark Orange */;
+--pwg-light-orange: #D9A465 /* Light Orange */;
+--pwg-pink: #FFC0CB /* Pink */;
+--pwg-clear-pink: #FFC0CB7F /* Clear Pink */;
+--pwg-dark-pink: #E75480 /* Dark Pink */;
+--pwg-light-pink: #FFB6C1 /* Light Pink */;
+--pwg-red: #FF0000 /* Red */;
+--pwg-clear-red: #FF00007F /* Clear Red */;
+--pwg-dark-red: #8B0000 /* Dark Red */;
+--pwg-light-red: #FF3333 /* Light Red */;
+--pwg-silver: #C0C0C0 /* Silver */;
+--pwg-clear-silver: #C0C0C07F /* Clear Silver */;
+--pwg-dark-silver: #AFAFAF /* Dark Silver */;
+--pwg-light-silver: #E1E1E1 /* Light Silver */;
+--pwg-turquoise: #30D5C8 /* Turquoise */;
+--pwg-clear-turquoise: #30D5C87F /* Clear Turquoise */;
+--pwg-dark-turquoise: #00CED1 /* Dark Turquoise */;
+--pwg-light-turquoise: #AFE4DE /* Light Turquoise */;
+--pwg-violet: #EE82EE /* Violet */;
+--pwg-clear-violet: #EE82EE7F /* Clear Violet */;
+--pwg-dark-violet: #9400D3 /* Dark Violet */;
+--pwg-light-violet: #7A5299 /* Light Violet */;
+--pwg-white: #FFFFFF /* White */;
+--pwg-clear-white: #FFFFFF7F /* Clear White */;
+--pwg-yellow: #FFFF00 /* Yellow */;
+--pwg-clear-yellow: #FFFF007F /* Clear Yellow */;
+--pwg-dark-yellow: #FFCC00 /* Dark Yellow */;
+--pwg-light-yellow: #FFFFE0 /* Light Yellow */;
+}

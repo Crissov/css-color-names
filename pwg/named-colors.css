@@ -1,0 +1,89 @@
+/** 
+ * Taken from Table 2 'Media Color Names' in
+ * IEEE-ISTO 5101.1: PWG Media Standardized Names v2.1 (MSN)
+ * https://ftp.pwg.org/pub/pwg/candidates/cs-pwgmsn21-20230915-5101.1.pdf
+ *
+ * no 'pwg-` prefix
+ */
+:root {
+--no-color: #FFFFFF00 /* Transparent */;
+--black: #000000 /* Black */;
+--clear-black: #0000007F /* Clear Black */;
+--light-black: #808080 /* Light Black */;
+--blue: #0000FF /* Blue */;
+--clear-blue: #0000FF7F /* Clear Blue */;
+--dark-blue: #00008B /* Dark Blue */;
+--light-blue: #ADD8E6 /* Light Blue */;
+--brown: #A52A2A /* Brown */;
+--clear-brown: #A52A2A7F /* Clear Brown */;
+--dark-brown: #5C4033 /* Dark Brown */;
+--light-brown: #9966FF /* Light Brown */;
+--buff: #F0DC82 /* Buff */;
+--clear-buff: #F0DC827F /* Clear Buff */;
+--dark-buff: #976638 /* Dark Buff */;
+--light-buff: #ECD9B0 /* Light Buff */;
+--cyan: #00FFFF /* Cyan */;
+--clear-cyan: #00FFFF7F /* Clear Cyan */;
+--dark-cyan: #008B8B /* Dark Cyan */;
+--light-cyan: #E0FFFF /* Light Cyan */;
+--gold: #FFD700 /* Gold */;
+--clear-gold: #FFD7007F /* Clear Gold */;
+--dark-gold: #EEBC1D /* Dark Gold */;
+--light-gold: #F1E5AC /* Light Gold */;
+--goldenrod: #DAA520 /* Goldenrod */;
+--clear-goldenrod: #DAA5207F /* Clear Goldenrod */;
+--dark-goldenrod: #B8860B /* Dark Goldenrod */;
+--light-goldenrod: #FFEC8B /* Light Goldenrod */;
+--gray: #808080 /* Gray */;
+--clear-gray: #8080807F /* Clear Gray */;
+--dark-gray: #404040 /* Dark Gray */;
+--light-gray: #D3D3D3 /* Light Gray */;
+--green: #008000 /* Green */;
+--clear-green: #0080007F /* Clear Green */;
+--dark-green: #006400 /* Dark Green */;
+--light-green: #90EE90 /* Light Green */;
+--ivory: #FFFFF0 /* Ivory */;
+--clear-ivory: #FFFFF07F /* Clear Ivory */;
+--dark-ivory: #F2E58F /* Dark Ivory */;
+--light-ivory: #FFF8C9 /* Light Ivory */;
+--magenta: #FF00FF /* Magenta */;
+--clear-magenta: #FF00FF7F /* Clear Magenta */;
+--dark-magenta: #8B008B /* Dark Magenta */;
+--light-magenta: #FF77FF /* Light Magenta */;
+--multi-color: none /* Multi-Color */;
+--clear-multi-color: none /* Clear Multi-Color */;
+--mustard: #FFDB58 /* Mustard */;
+--clear-mustard: #FFDB587F /* Clear Mustard */;
+--dark-mustard: #7C7C40 /* Dark Mustard */;
+--light-mustard: #EEDD62 /* Light Mustard */;
+--orange: #FFA500 /* Orange */;
+--clear-orange: #FFA5007F /* Clear Orange */;
+--dark-orange: #FF8C00 /* Dark Orange */;
+--light-orange: #D9A465 /* Light Orange */;
+--pink: #FFC0CB /* Pink */;
+--clear-pink: #FFC0CB7F /* Clear Pink */;
+--dark-pink: #E75480 /* Dark Pink */;
+--light-pink: #FFB6C1 /* Light Pink */;
+--red: #FF0000 /* Red */;
+--clear-red: #FF00007F /* Clear Red */;
+--dark-red: #8B0000 /* Dark Red */;
+--light-red: #FF3333 /* Light Red */;
+--silver: #C0C0C0 /* Silver */;
+--clear-silver: #C0C0C07F /* Clear Silver */;
+--dark-silver: #AFAFAF /* Dark Silver */;
+--light-silver: #E1E1E1 /* Light Silver */;
+--turquoise: #30D5C8 /* Turquoise */;
+--clear-turquoise: #30D5C87F /* Clear Turquoise */;
+--dark-turquoise: #00CED1 /* Dark Turquoise */;
+--light-turquoise: #AFE4DE /* Light Turquoise */;
+--violet: #EE82EE /* Violet */;
+--clear-violet: #EE82EE7F /* Clear Violet */;
+--dark-violet: #9400D3 /* Dark Violet */;
+--light-violet: #7A5299 /* Light Violet */;
+--white: #FFFFFF /* White */;
+--clear-white: #FFFFFF7F /* Clear White */;
+--yellow: #FFFF00 /* Yellow */;
+--clear-yellow: #FFFF007F /* Clear Yellow */;
+--dark-yellow: #FFCC00 /* Dark Yellow */;
+--light-yellow: #FFFFE0 /* Light Yellow */;
+}
