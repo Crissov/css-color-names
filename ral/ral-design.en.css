@@ -292,7 +292,7 @@
 --autumn-gold:                  rgb(128, 82, 26); /* HCL  70° 40% 40% */
 --saruk-grey:                   rgb(129,114,101); /* HCL  70° 50% 10% */ --saruk-gray: var(--saruk-grey);
 --ash-gold:                     rgb(140,111, 84); /* HCL  70° 50% 20% */
---lions-mane-blonde:            rgb(148,107, 65); /* HCL  70° 50% 30% */
+--lions-mane-blonde:            rgb(148,107, 65); /* HCL  70° 50% 30% */ --lion’s-mane-blonde: var(--lions-mane-blonde);
 --antique-gold:                 rgb(157,105, 47); /* HCL  70° 50% 40% */
 --stage-gold:                   rgb(158,105, 40); /* HCL  70° 50% 50% */
 --theatre-gold:                 rgb(167,105, 36); /* HCL  70° 50% 55% */
