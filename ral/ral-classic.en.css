@@ -18,7 +18,7 @@
 --sulfur-yellow:          rgb(241,221, 56); /* RAL 1016 */
 --saffron-yellow:         rgb(246,169, 80); /* RAL 1017 */
 --zinc-yellow:            rgb(250,202, 48); /* RAL 1018 */
---grey-beige:             rgb(164,143,122); /* RAL 1019 */
+--grey-beige:             rgb(164,143,122); /* RAL 1019 */ --gray-beige: var(--grey-beige);
 --olive-yellow:           rgb(160,143,101); /* RAL 1020 */
 --colza-yellow:           rgb(246,182,  0); /* RAL 1021 */
 --traffic-yellow:         rgb(247,181,  0); /* RAL 1023 */
@@ -89,7 +89,7 @@
 --black-blue:             rgb( 25, 30, 40); /* RAL 5004 */
 --signal-blue:            rgb(  0, 83,135); /* RAL 5005 */
 --brilliant-blue:         rgb( 55,107,140); /* RAL 5007 */
---grey-blue:              rgb( 43, 58, 68); /* RAL 5008 */
+--grey-blue:              rgb( 43, 58, 68); /* RAL 5008 */ --gray-blue: var(--grey-blue);
 --azure-blue:             rgb( 34, 95,120); /* RAL 5009 */
 --gentian-blue:           rgb(  0, 79,124); /* RAL 5010 */
 --steel-blue:             rgb( 26, 43, 60); /* RAL 5011 */
@@ -113,7 +113,7 @@
 --olive-green:            rgb( 80, 83, 60); /* RAL 6003 */
 --blue-green:             rgb(  2, 68, 66); /* RAL 6004 */
 --moss-green:             rgb( 17, 66, 50); /* RAL 6005 */
---grey-olive:             rgb( 60, 57, 46); /* RAL 6006 */
+--grey-olive:             rgb( 60, 57, 46); /* RAL 6006 */ --gray-olive: var(--grey-olive);
 --bottle-green:           rgb( 44, 50, 34); /* RAL 6007 */
 --brown-green:            rgb( 55, 52, 42); /* RAL 6008 */
 --fir-green:              rgb( 39, 53, 42); /* RAL 6009 */
@@ -143,44 +143,44 @@
 --pearl-opal-green:       rgb(  4, 87, 75); /* RAL 6036 */
 --pure-green:             rgb(  0,139, 41); /* RAL 6037 */
 --luminous-green:         rgb(  0,181, 26); /* RAL 6038 */
---squirrel-grey:          rgb(122,136,142); /* RAL 7000 */
---silver-grey:            rgb(140,150,157); /* RAL 7001 */
---olive-grey:             rgb(129,120, 99); /* RAL 7002 */
---moss-grey:              rgb(122,118,105); /* RAL 7003 */
---signal-grey:            rgb(155,155,155); /* RAL 7004 */
---mouse-grey:             rgb(108,110,107); /* RAL 7005 */
---beige-grey:             rgb(118,106, 94); /* RAL 7006 */
---khaki-grey:             rgb(116, 94, 61); /* RAL 7008 */
---green-grey:             rgb( 93, 96, 88); /* RAL 7009 */
---tarpaulin-grey:         rgb( 88, 92, 86); /* RAL 7010 */
---iron-grey:              rgb( 82, 89, 93); /* RAL 7011 */
---basalt-grey:            rgb( 87, 93, 94); /* RAL 7012 */
---brown-grey:             rgb( 87, 80, 68); /* RAL 7013 */
---slate-grey:             rgb( 79, 83, 88); /* RAL 7015 */
---anthracite-grey:        rgb( 56, 62, 66); /* RAL 7016 */
---black-grey:             rgb( 47, 50, 52); /* RAL 7021 */
---umbra-grey:             rgb( 76, 74, 68); /* RAL 7022 */
---concrete-grey:          rgb(128,128,118); /* RAL 7023 */
---graphite-grey:          rgb( 69, 73, 78); /* RAL 7024 */
---granite-grey:           rgb( 55, 67, 69); /* RAL 7026 */
---stone-grey:             rgb(146,142,133); /* RAL 7030 */
---blue-grey:              rgb( 91,104,109); /* RAL 7031 */
---pebble-grey:            rgb(181,176,161); /* RAL 7032 */
---cement-grey:            rgb(127,130,116); /* RAL 7033 */
---yellow-grey:            rgb(146,136,111); /* RAL 7034 */
---light-grey:             rgb(197,199,196); /* RAL 7035 */
---platinum-grey:          rgb(151,147,146); /* RAL 7036 */
---dusty-grey:             rgb(122,123,122); /* RAL 7037 */
---agate-grey:             rgb(176,176,169); /* RAL 7038 */
---quartz-grey:            rgb(107,102, 94); /* RAL 7039 */
---window-grey:            rgb(152,158,161); /* RAL 7040 */
---traffic-grey-a:         rgb(142,146,145); /* RAL 7042 */
---traffic-grey-b:         rgb( 79, 82, 80); /* RAL 7043 */
---silk-grey:              rgb(183,179,168); /* RAL 7044 */
---telegrey-1:             rgb(141,146,149); /* RAL 7045 */
---telegrey-2:             rgb(127,134,138); /* RAL 7046 */
---telegrey-4:             rgb(200,200,199); /* RAL 7047 */
---pearl-mouse-grey:       rgb(129,123,115); /* RAL 7048 */
+--squirrel-grey:          rgb(122,136,142); /* RAL 7000 */ --squirrel-gray: var(--squirrel-grey);
+--silver-grey:            rgb(140,150,157); /* RAL 7001 */ --silver-gray: var(--silver-grey);
+--olive-grey:             rgb(129,120, 99); /* RAL 7002 */ --olive-gray: var(--olive-grey);
+--moss-grey:              rgb(122,118,105); /* RAL 7003 */ --moss-gray: var(--moss-grey);
+--signal-grey:            rgb(155,155,155); /* RAL 7004 */ --signal-gray: var(--signal-grey);
+--mouse-grey:             rgb(108,110,107); /* RAL 7005 */ --mouse-gray: var(--mouse-grey);
+--beige-grey:             rgb(118,106, 94); /* RAL 7006 */ --beige-gray: var(--beige-grey);
+--khaki-grey:             rgb(116, 94, 61); /* RAL 7008 */ --khaki-gray: var(--khaki-grey);
+--green-grey:             rgb( 93, 96, 88); /* RAL 7009 */ --green-gray: var(--green-grey);
+--tarpaulin-grey:         rgb( 88, 92, 86); /* RAL 7010 */ --tarpaulin-gray: var(--tarpaulin-grey);
+--iron-grey:              rgb( 82, 89, 93); /* RAL 7011 */ --iron-gray: var(--iron-grey);
+--basalt-grey:            rgb( 87, 93, 94); /* RAL 7012 */ --basalt-gray: var(--basalt-grey);
+--brown-grey:             rgb( 87, 80, 68); /* RAL 7013 */ --brown-gray: var(--brown-grey);
+--slate-grey:             rgb( 79, 83, 88); /* RAL 7015 */ --slate-gray: var(--slate-grey);
+--anthracite-grey:        rgb( 56, 62, 66); /* RAL 7016 */ --anthracite-gray: var(--anthracite-grey);
+--black-grey:             rgb( 47, 50, 52); /* RAL 7021 */ --black-gray: var(--black-grey);
+--umbra-grey:             rgb( 76, 74, 68); /* RAL 7022 */ --umbra-gray: var(--umbra-grey);
+--concrete-grey:          rgb(128,128,118); /* RAL 7023 */ --concrete-gray: var(--concrete-grey);
+--graphite-grey:          rgb( 69, 73, 78); /* RAL 7024 */ --graphite-gray: var(--graphite-grey);
+--granite-grey:           rgb( 55, 67, 69); /* RAL 7026 */ --granite-gray: var(--granite-grey);
+--stone-grey:             rgb(146,142,133); /* RAL 7030 */ --stone-gray: var(--stone-grey);
+--blue-grey:              rgb( 91,104,109); /* RAL 7031 */ --blue-gray: var(--blue-grey);
+--pebble-grey:            rgb(181,176,161); /* RAL 7032 */ --pebble-gray: var(--pebble-grey);
+--cement-grey:            rgb(127,130,116); /* RAL 7033 */ --cement-gray: var(--cement-grey);
+--yellow-grey:            rgb(146,136,111); /* RAL 7034 */ --yellow-gray: var(--yellow-grey);
+--light-grey:             rgb(197,199,196); /* RAL 7035 */ --light-gray: var(--light-grey);
+--platinum-grey:          rgb(151,147,146); /* RAL 7036 */ --platinum-gray: var(--platinum-grey);
+--dusty-grey:             rgb(122,123,122); /* RAL 7037 */ --dusty-gray: var(--dusty-grey);
+--agate-grey:             rgb(176,176,169); /* RAL 7038 */ --agate-gray: var(--agate-grey);
+--quartz-grey:            rgb(107,102, 94); /* RAL 7039 */ --quartz-gray: var(--quartz-grey);
+--window-grey:            rgb(152,158,161); /* RAL 7040 */ --window-gray: var(--window-grey);
+--traffic-grey-a:         rgb(142,146,145); /* RAL 7042 */ --traffic-gray-a: var(--traffic-grey-a);
+--traffic-grey-b:         rgb( 79, 82, 80); /* RAL 7043 */ --traffic-gray-b: var(--traffic-grey-b);
+--silk-grey:              rgb(183,179,168); /* RAL 7044 */ --silk-gray: var(--silk-grey);
+--telegrey-1:             rgb(141,146,149); /* RAL 7045 */ --telegray-1: var(--telegrey-1);
+--telegrey-2:             rgb(127,134,138); /* RAL 7046 */ --telegray-2: var(--telegrey-2);
+--telegrey-4:             rgb(200,200,199); /* RAL 7047 */ --telegray-4: var(--telegrey-4);
+--pearl-mouse-grey:       rgb(129,123,115); /* RAL 7048 */ --pearl-mouse-gray: var(--pearl-mouse-grey);
 --green-brown:            rgb(137,105, 62); /* RAL 8000 */
 --ochre-brown:            rgb(157, 98, 43); /* RAL 8001 */
 --signal-brown:           rgb(121, 77, 62); /* RAL 8002 */
@@ -194,7 +194,7 @@
 --chestnut-brown:         rgb( 94, 47, 38); /* RAL 8015 */
 --mahogany-brown:         rgb( 76, 43, 32); /* RAL 8016 */
 --chocolate-brown:        rgb( 68, 47, 41); /* RAL 8017 */
---grey-brown:             rgb( 61, 54, 53); /* RAL 8019 */
+--grey-brown:             rgb( 61, 54, 53); /* RAL 8019 */ --gray-brown: var(--grey-brown);
 --black-brown:            rgb( 26, 23, 24); /* RAL 8022 */
 --orange-brown:           rgb(164, 87, 41); /* RAL 8023 */
 --beige-brown:            rgb(121, 80, 56); /* RAL 8024 */
@@ -202,17 +202,17 @@
 --terra-brown:            rgb( 81, 58, 42); /* RAL 8028 */
 --pearl-copper:           rgb(127, 64, 49); /* RAL 8029 */
 --cream:                  rgb(233,224,210); /* RAL 9001 */
---grey-white:             rgb(215,213,203); /* RAL 9002 */
+--grey-white:             rgb(215,213,203); /* RAL 9002 */ --gray-white: var(--grey-white);
 --signal-white:           rgb(236,236,231); /* RAL 9003 */
 --signal-black:           rgb( 43, 43, 44); /* RAL 9004 */
 --jet-black:              rgb( 14, 14, 16); /* RAL 9005 */
 --white-aluminium:        rgb(161,161,160); /* RAL 9006 */
---grey-aluminium:         rgb(135,133,129); /* RAL 9007 */
+--grey-aluminium:         rgb(135,133,129); /* RAL 9007 */ --gray-aluminium: var(--grey-aluminium);
 --pure-white:             rgb(241,236,225); /* RAL 9010 */
 --graphite-black:         rgb( 39, 41, 43); /* RAL 9011 */
 --traffic-white:          rgb(241,240,234); /* RAL 9016 */
 --traffic-black:          rgb( 42, 41, 42); /* RAL 9017 */
 --papyrus-white:          rgb(200,203,196); /* RAL 9018 */
---pearl-light-grey:       rgb(133,133,131); /* RAL 9022 */
---pearl-dark-grey:        rgb(121,123,122); /* RAL 9023 */
+--pearl-light-grey:       rgb(133,133,131); /* RAL 9022 */ --pearl-light-gray: var(--pearl-light-grey);
+--pearl-dark-grey:        rgb(121,123,122); /* RAL 9023 */ --pearl-dark-gray: var(--pearl-dark-grey);
 }
